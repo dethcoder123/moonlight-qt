@@ -18,7 +18,7 @@ win32:!winrt {
 
 # PyroWave codec library (see pyrowave/VENDOR.txt). Must match the condition
 # in app/app.pro. Linux uses libplacebo; macOS shares MoltenVK outputs with Metal.
-win32:!winrt:contains(QT_ARCH, x86_64):!disable-pyrowave {
+win32:!winrt:contains(QT_ARCH, x86_64|arm64):!disable-pyrowave {
     SUBDIRS += pyrowave
     app.depends += pyrowave
 }

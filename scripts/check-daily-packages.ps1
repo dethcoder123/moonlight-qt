@@ -23,12 +23,14 @@ $bundle = (Resolve-Path "build/installer-release/MoonlightSetup-$CiVersion.exe")
 $bundleVersion = [System.Diagnostics.FileVersionInfo]::GetVersionInfo($bundle).FileVersion
 Assert-WindowsProductVersion -Actual $bundleVersion -Expected $expected -Label 'Bundle'
 Add-Type -AssemblyName System.IO.Compression.FileSystem
-$zip = [System.IO.Compression.ZipFile]::OpenRead((Resolve-Path "build/installer-x64-release/MoonlightPortable-x64-$CiVersion.zip"))
-try {
-    $names = @($zip.Entries.FullName)
-    foreach ($file in @('Moonlight.exe', 'vrrreplay.exe', 'decode-vrr-trace.py', 'portable.dat.inactive')) {
-        if ($names -notcontains $file) { throw "Portable ZIP is missing $file" }
-    }
-    if ($names -contains 'portable.dat') { throw 'Portable ZIP has active settings marker' }
-} finally { $zip.Dispose() }
+foreach ($arch in @('x64', 'arm64')) {
+    $zip = [System.IO.Compression.ZipFile]::OpenRead((Resolve-Path "build/installer-$arch-release/MoonlightPortable-$arch-$CiVersion.zip"))
+    try {
+        $names = @($zip.Entries.FullName)
+        foreach ($file in @('Moonlight.exe', 'vrrreplay.exe', 'decode-vrr-trace.py', 'portable.dat.inactive')) {
+            if ($names -notcontains $file) { throw "$arch portable ZIP is missing $file" }
+        }
+        if ($names -contains 'portable.dat') { throw "$arch portable ZIP has active settings marker" }
+    } finally { $zip.Dispose() }
+}
 Write-Host "Daily PE, MSI, Burn and portable package gates passed: $expected"

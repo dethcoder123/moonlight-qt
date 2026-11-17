@@ -52,12 +52,18 @@ namespace Internal
 {
 static inline uint32_t popcount32(uint32_t x)
 {
+#if defined(_M_ARM64) || defined(_M_ARM64EC)
+	return _CountOneBits(x);
+#else
 	return __popcnt(x);
+#endif
 }
 
 static inline uint32_t popcount64(uint64_t x)
 {
-#ifdef _WIN64
+#if defined(_M_ARM64) || defined(_M_ARM64EC)
+	return _CountOneBits64(x);
+#elif defined(_WIN64)
 	return __popcnt64(x);
 #else
 	return popcount32(uint32_t(x)) + popcount32(uint32_t(x >> 32));

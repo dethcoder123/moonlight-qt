@@ -819,9 +819,11 @@ context.
 
 Preparation binds and clears the backbuffer, renders video and overlays, and sets
 colorspace/HDR state. Direct decoder texture binding follows stock Moonlight on
-Intel and on separate decode/render devices. AMD/NVIDIA single-device sessions
-keep the compatibility copy below 4K; 4K streams bind when the GPU has Feature
-Level 11.1+ or D3D11 fences. It holds the presentation lock while manipulating
+Intel and on separate decode/render devices. Single-device sessions (including
+AMD, NVIDIA, and Qualcomm Adreno on Windows ARM64) keep the compatibility copy
+below 4K; 4K streams bind when the GPU has Feature Level 11.1+ or D3D11 fences,
+and fall back to the compatibility copy texture automatically if the driver
+rejects direct SRV binding for the active codec/format. It holds the presentation lock while manipulating
 render state. Immediately after recording the frame, preparation signals and
 flushes a present-ready fence, arms its event, and performs one nonblocking value
 poll. It publishes the in-flight marker under the presentation lock, then

@@ -5872,10 +5872,12 @@ bool Device::supports_subgroup_size_log2(bool subgroup_full_group, uint8_t subgr
 	}
 
 	// We need requiredSubgroupSizeStages support here.
-	// MoltenVK cannot request a subgroup size, but its ordinary SPIR-V 1.3
-	// pipelines use the reported native size when ALLOW_VARYING is absent.
-	// PyroWave's embedded shaders use that older SPIR-V contract.
-	if (ext.driver_id == VK_DRIVER_ID_MOLTENVK &&
+	// MoltenVK and some Qualcomm Adreno driver revisions cannot request a
+	// subgroup size, but their ordinary SPIR-V 1.3 pipelines use the reported
+	// native size when ALLOW_VARYING is absent. PyroWave's embedded shaders use
+	// that older SPIR-V contract.
+	if ((ext.driver_id == VK_DRIVER_ID_MOLTENVK ||
+	     ext.driver_id == VK_DRIVER_ID_QUALCOMM_PROPRIETARY) &&
 	    !(ext.vk13_props.requiredSubgroupSizeStages & stage))
 		return min_subgroups <= ext.vk11_props.subgroupSize &&
 		       max_subgroups >= ext.vk11_props.subgroupSize;

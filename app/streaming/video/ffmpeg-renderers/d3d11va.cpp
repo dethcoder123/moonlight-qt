@@ -828,7 +828,12 @@ bool D3D11VARenderer::initialize(PDECODER_PARAMETERS params)
 
     // DXVA2 may let us take over for FSE V-sync off cases. However, if we don't have DXGI_FEATURE_PRESENT_ALLOW_TEARING
     // then we should not attempt to do this unless there's no other option (HDR, DXVA2 failed in pass 1, etc).
-    if (!isPyroWave() && !m_AllowTearing && !params->enableVsync && m_DecoderSelectionPass == 0 && !(params->videoFormat & VIDEO_FORMAT_MASK_10BIT) &&
+#ifdef Q_PROCESSOR_X86
+    const bool dxva2Available = qgetenv("DXVA2_ENABLED") != "0";
+#else
+    const bool dxva2Available = qgetenv("DXVA2_ENABLED") == "1";
+#endif
+    if (dxva2Available && !isPyroWave() && !m_AllowTearing && !params->enableVsync && m_DecoderSelectionPass == 0 && !(params->videoFormat & VIDEO_FORMAT_MASK_10BIT) &&
             (SDL_GetWindowFlags(params->window) & SDL_WINDOW_FULLSCREEN_DESKTOP) == SDL_WINDOW_FULLSCREEN) {
         SDL_LogWarn(SDL_LOG_CATEGORY_APPLICATION,
                     "Defaulting to DXVA2 for FSE without DXGI_FEATURE_PRESENT_ALLOW_TEARING support");
@@ -987,49 +992,66 @@ bool D3D11VARenderer::prepareDecoderContext(AVCodecContext* context, AVDictionar
 
 bool D3D11VARenderer::prepareDecoderContextInGetFormat(AVCodecContext *context, AVPixelFormat pixelFormat)
 {
-    // Create a new hardware frames context suitable for decoding our specified format
-    av_buffer_unref(&context->hw_frames_ctx);
-    int err = avcodec_get_hw_frames_parameters(context, m_HwDeviceContext, pixelFormat, &context->hw_frames_ctx);
-    if (err < 0) {
-        SDL_LogError(SDL_LOG_CATEGORY_APPLICATION,
-                     "Failed to get hwframes context parameters: %d",
-                     err);
-        return false;
-    }
-
-    auto framesContext = (AVHWFramesContext*)context->hw_frames_ctx->data;
-    auto d3d11vaFramesContext = (AVD3D11VAFramesContext*)framesContext->hwctx;
-
-    // If we're binding output textures directly, we need to add the SRV bind flag
-    if (m_BindDecoderOutputTextures) {
-        d3d11vaFramesContext->BindFlags |= D3D11_BIND_SHADER_RESOURCE;
-    }
-
-    // If we're using separate decode and render devices, we need to create shared textures
-    if (m_DecodeDevice != m_RenderDevice) {
-        d3d11vaFramesContext->MiscFlags |= D3D11_RESOURCE_MISC_SHARED | D3D11_RESOURCE_MISC_SHARED_NTHANDLE;
-    }
-
-    // Mimic the logic in ff_decode_get_hw_frames_ctx() which adds an extra 3 frames
-    if (framesContext->initial_pool_size) {
-        framesContext->initial_pool_size += 3;
-    }
-
-    err = av_hwframe_ctx_init(context->hw_frames_ctx);
-    if (err < 0) {
+    for (;;) {
+        // Create a new hardware frames context suitable for decoding our specified format
         av_buffer_unref(&context->hw_frames_ctx);
-        SDL_LogError(SDL_LOG_CATEGORY_APPLICATION,
-                     "Failed initialize hwframes context: %d",
-                     err);
-        return false;
-    }
+        int err = avcodec_get_hw_frames_parameters(context, m_HwDeviceContext, pixelFormat, &context->hw_frames_ctx);
+        if (err < 0) {
+            SDL_LogError(SDL_LOG_CATEGORY_APPLICATION,
+                         "Failed to get hwframes context parameters: %d",
+                         err);
+            return false;
+        }
 
-    if (!setupFrameRenderingResources(framesContext)) {
-        av_buffer_unref(&context->hw_frames_ctx);
-        return false;
-    }
+        auto framesContext = (AVHWFramesContext*)context->hw_frames_ctx->data;
+        auto d3d11vaFramesContext = (AVD3D11VAFramesContext*)framesContext->hwctx;
 
-    return true;
+        // If we're binding output textures directly, we need to add the SRV bind flag
+        if (m_BindDecoderOutputTextures) {
+            d3d11vaFramesContext->BindFlags |= D3D11_BIND_SHADER_RESOURCE;
+        }
+
+        // If we're using separate decode and render devices, we need to create shared textures
+        if (m_DecodeDevice != m_RenderDevice) {
+            d3d11vaFramesContext->MiscFlags |= D3D11_RESOURCE_MISC_SHARED | D3D11_RESOURCE_MISC_SHARED_NTHANDLE;
+        }
+
+        // Mimic the logic in ff_decode_get_hw_frames_ctx() which adds an extra 3 frames
+        if (framesContext->initial_pool_size) {
+            framesContext->initial_pool_size += 3;
+        }
+
+        err = av_hwframe_ctx_init(context->hw_frames_ctx);
+        if (err < 0) {
+            av_buffer_unref(&context->hw_frames_ctx);
+            if (m_BindDecoderOutputTextures && m_DecodeDevice == m_RenderDevice) {
+                SDL_LogWarn(SDL_LOG_CATEGORY_APPLICATION,
+                            "Failed to initialize D3D11VA hwframes with direct SRV binding (%d); falling back to copy texture",
+                            err);
+                m_BindDecoderOutputTextures = false;
+                continue;
+            }
+            SDL_LogError(SDL_LOG_CATEGORY_APPLICATION,
+                         "Failed initialize hwframes context: %d",
+                         err);
+            return false;
+        }
+
+        if (!setupFrameRenderingResources(framesContext)) {
+            av_buffer_unref(&context->hw_frames_ctx);
+            if (m_BindDecoderOutputTextures && m_DecodeDevice == m_RenderDevice) {
+                SDL_LogWarn(SDL_LOG_CATEGORY_APPLICATION,
+                            "Failed to create direct SRV pool views on single-device D3D11VA; falling back to copy texture");
+                m_RenderSharedTextureArray.Reset();
+                m_VideoTextureResourceViews.clear();
+                m_BindDecoderOutputTextures = false;
+                continue;
+            }
+            return false;
+        }
+
+        return true;
+    }
 }
 
 void D3D11VARenderer::renderFrame(AVFrame* frame)

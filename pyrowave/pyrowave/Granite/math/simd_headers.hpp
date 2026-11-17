@@ -35,6 +35,11 @@
 #define __AVX__ 1
 #endif
 
+#elif defined(_MSC_VER) && (defined(_M_ARM64) || defined(_M_ARM64EC))
+#include <arm_neon.h>
+#ifndef __ARM_NEON
+#define __ARM_NEON 1
+#endif
 #elif defined(__AVX__)
 #include <immintrin.h>
 #elif defined(__SSE4_1__)

@@ -1255,9 +1255,10 @@ bool CommandBuffer::setup_subgroup_size_control(
 	else
 	{
 		// No varying-size flag and no required-size structure means the
-		// native subgroup size for our SPIR-V 1.3 shaders. MoltenVK exposes
-		// that mode even though requiredSubgroupSizeStages is zero.
-		if (features.driver_id == VK_DRIVER_ID_MOLTENVK &&
+		// native subgroup size for our SPIR-V 1.3 shaders. MoltenVK and
+		// Qualcomm Adreno drivers expose that mode when requiredSubgroupSizeStages is zero.
+		if ((features.driver_id == VK_DRIVER_ID_MOLTENVK ||
+		     features.driver_id == VK_DRIVER_ID_QUALCOMM_PROPRIETARY) &&
 		    !(features.vk13_props.requiredSubgroupSizeStages & stage))
 			return true;
 

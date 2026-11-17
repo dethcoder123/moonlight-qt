@@ -575,7 +575,7 @@ bool DXVA2Renderer::initialize(PDECODER_PARAMETERS params)
         return false;
     }
 #ifndef Q_PROCESSOR_X86
-    else if (qgetenv("DXVA2_ENABLED") != "1" && m_DecoderSelectionPass == 0) {
+    else if (qgetenv("DXVA2_ENABLED") != "1") {
         SDL_LogInfo(SDL_LOG_CATEGORY_APPLICATION,
                     "DXVA2 is disabled by default on ARM64. Set DXVA2_ENABLED=1 to override.");
         return false;
