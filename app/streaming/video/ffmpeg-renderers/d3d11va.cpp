@@ -599,6 +599,8 @@ bool D3D11VARenderer::createDeviceByAdapterIndex(int adapterIndex, bool* adapter
         m_DecodeDeviceContext = m_RenderDeviceContext;
         m_BindDecoderOutputTextures = false;
         m_DevicesWithCodecSupport++;
+        m_RenderVendorId = adapterDesc.VendorId;
+        m_VrrSkipPrePresentWait = (adapterDesc.VendorId == 0x4D4F4351);
         m_RenderAdapterIndex = adapterIndex;
         m_RenderAdapterLuid = adapterDesc.AdapterLuid;
         m_VrrRenderAdapterLuidValid = true;
@@ -678,6 +680,8 @@ bool D3D11VARenderer::createDeviceByAdapterIndex(int adapterIndex, bool* adapter
         m_DevicesWithCodecSupport++;
     }
 
+    m_RenderVendorId = adapterDesc.VendorId;
+    m_VrrSkipPrePresentWait = (adapterDesc.VendorId == 0x4D4F4351);
     m_RenderAdapterIndex = adapterIndex;
     m_VrrRenderAdapterLuidValid = true;
     m_VrrRenderAdapterLuid = packLuid(adapterDesc.AdapterLuid);
@@ -2621,6 +2625,10 @@ bool D3D11VARenderer::prepareFrameForPresent(AVFrame* frame,
         renderOverlay((Overlay::OverlayType)i);
     }
 
+    // Unbind the backbuffer RTV so tile-based deferred GPUs (e.g. Qualcomm Adreno)
+    // close and resolve the render pass when Flush() is called before Present().
+    m_RenderDeviceContext->OMSetRenderTargets(0, nullptr, nullptr);
+
     if (frame->color_trc != m_LastColorTrc) {
         HRESULT hr;
         if (frame->color_trc == AVCOL_TRC_SMPTE2084) {
@@ -2802,6 +2810,16 @@ bool D3D11VARenderer::finishVrrPresentReady(
         return false;
     }
 
+    if (m_VrrSkipPrePresentWait) {
+        m_VrrGpuReadyWaitStartUs = m_VrrGpuReadyPollEndUs;
+        m_VrrGpuReadyWaitResultValid = true;
+        m_VrrGpuReadyWaitResult = WAIT_OBJECT_0;
+        m_VrrGpuReadyTimeUs = m_VrrGpuReadyPollEndUs;
+        m_VrrGpuReadyTimingValid = true;
+        m_VrrPreparedCompletion.complete(m_VrrGpuReadyFenceValue, true);
+        return true;
+    }
+
     const UINT64 fenceValue = m_VrrGpuReadyFenceValue;
     const ComPtr<ID3D11Fence> fence = m_VrrPresentReadyFence;
     const HANDLE fenceEvent = m_VrrPresentReadyFenceEvent;
@@ -2903,6 +2921,16 @@ bool D3D11VARenderer::finishVrrPresentReady(
                 static_cast<unsigned long long>(m_RenderR2DFence->GetCompletedValue()),
                 static_cast<unsigned long long>(m_DecodeR2DFence->GetCompletedValue()),
                 static_cast<unsigned long long>(m_R2DFenceValue));
+        }
+        if (waitResult == WAIT_TIMEOUT &&
+                m_RenderDevice->GetDeviceRemovedReason() == S_OK &&
+                m_DecodeDevice->GetDeviceRemovedReason() == S_OK) {
+            SDL_LogWarn(SDL_LOG_CATEGORY_APPLICATION,
+                        "D3D11 VRR present-ready fence timed out on healthy device; disabling pre-present CPU wait to avoid reset loop");
+            m_VrrSkipPrePresentWait = true;
+            m_VrrGpuReadyTimingValid = true;
+            m_VrrPreparedCompletion.complete(fenceValue, true);
+            return true;
         }
         m_VrrPresentReadyAvailable = false;
         return false;
@@ -3069,9 +3097,11 @@ VrrPrepareResult D3D11VARenderer::prepareFrame(AVFrame* frame,
 
     result.prepared = true;
     // The exact rendering marker completed successfully. No GPU wait remains
-    // at the submission boundary, and the decoder surface is safe to release.
+    // at the submission boundary, and the decoder surface is safe to release
+    // unless pre-present CPU fence waiting was skipped with direct SRV binding.
     populateVrrGpuReadyFeedback(result.feedback);
-    result.sourceFrameReusable = true;
+    result.sourceFrameReusable = !m_BindDecoderOutputTextures ||
+        !m_VrrSkipPrePresentWait || m_VrrGpuReadyCompletedBeforeWait;
 
     // Never hold the presentation mutex while the pacing worker waits for its
     // presentation target. On a shared device it includes FFmpeg's lock, and

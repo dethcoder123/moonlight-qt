@@ -1,0 +1,2150 @@
+00:00:00 - Qt Info: Removing old log file: "Moonlight-1794126720.log"
+00:00:00 - SDL Info (0): Compiled with SDL 2.32.70
+00:00:00 - SDL Info (0): Running with SDL 2.32.70
+00:00:00 - SDL Info (0): SDL3 version: 3.4.12
+00:00:00 - Qt Info: No translation available for "en_CA"
+00:00:00 - Qt Info: Loaded unique ID from settings: "49c3456590dcd46f"
+00:00:00 - Qt Debug: Current Moonlight version: "fef0c7"
+00:00:00 - Qt Debug: Skipping update checks for an unversioned development build
+00:00:00 - Qt Info: Found "gamecontrollerdb.txt" at "C:/Users/haran/AppData/Local/Moonlight Game Streaming Project/Moonlight/cache/gamecontrollerdb.txt"
+00:00:00 - SDL Info (0): Loaded 569 new gamepad mappings
+00:00:00 - SDL Info (0): V-sync disabled
+00:00:00 - SDL Info (0): VRR disabled
+00:00:00 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:00:00 - Qt Info: Found "gamecontrollerdb.txt" at "C:/Users/haran/AppData/Local/Moonlight Game Streaming Project/Moonlight/cache/gamecontrollerdb.txt"
+00:00:00 - SDL Info (0): Loaded 569 new gamepad mappings
+00:00:00 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:00:00 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:00:00 - SDL Info (0): Using shared device for decoding and rendering
+00:00:00 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:00:00 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:00:00 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:00:00 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:00:00 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:00:00 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:00:00 - SDL Info (0): Using D3D11VA accelerated renderer
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] nal_unit_type: 32(VPS), nuh_layer_id: 0, temporal_id: 0
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] nal_unit_type: 33(SPS), nuh_layer_id: 0, temporal_id: 0
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] nal_unit_type: 34(PPS), nuh_layer_id: 0, temporal_id: 0
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] nal_unit_type: 21(CRA_NUT), nuh_layer_id: 0, temporal_id: 0
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] Decoding VPS
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] Main 10 profile bitstream
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] Decoding SPS
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] Main 10 profile bitstream
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] Decoding VUI
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] Decoding PPS
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] Format d3d11 chosen by get_format().
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] Format d3d11 requires hwaccel hevc_d3d11va2 initialisation.
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] Decoder GUIDs reported as supported:
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:00:00 - FFmpeg: [hevc @ 0000021104A88A90] Output frame with POC 0/3.
+00:00:01 - FFmpeg: [hevc @ 0000021104A88A90] Decoded frame with POC 0/3.
+00:00:01 - SDL Info (0): FFmpeg-based video decoder chosen
+00:00:01 - Qt Info: "DESKTOP-E8NV55A" is now online at "192.168.0.206:47989"
+00:00:01 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:00:01 - Qt Info: Discovered mDNS host: "DESKTOP-E8NV55A.local."
+00:00:01 - Qt Info: Gamepad mappings are up to date
+00:00:01 - Qt Info: Latest supported GFE server: "99.99.99.99"
+00:00:03 - Qt Info: "deathspc" is now offline
+00:00:03 - Qt Info: Processing new PC "DESKTOP-E8NV55A.local." from mDNS with local address "192.168.0.206:47989"
+00:00:03 - Qt Info: Executing request: "http://192.168.0.206:47989/serverinfo?uniqueid=0123456789ABCDEF&uuid=4c9ecda5ff15412b9765cbd2feef1648"
+00:00:03 - Qt Info: Executing request: "https://192.168.0.206:47984/serverinfo?uniqueid=49c3456590dcd46f&uuid=494c9351b8d5468bbaf45d3df2e43266"
+00:00:03 - Qt Info: "DESKTOP-E8NV55A" is now at "192.168.0.206:47989"
+00:00:06 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:00:09 - Qt Info: OpenType support missing for "Inter", script 16
+00:00:09 - Qt Info: OpenType support missing for "Tahoma", script 16
+00:00:09 - Qt Info: OpenType support missing for "Arial", script 16
+00:00:09 - Qt Info: OpenType support missing for "MS UI Gothic", script 16
+00:00:09 - Qt Info: OpenType support missing for "SimSun", script 16
+00:00:09 - Qt Info: OpenType support missing for "Segoe UI Emoji", script 16
+00:00:09 - Qt Info: OpenType support missing for "Segoe UI Symbol", script 16
+00:00:11 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:00:17 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:00:22 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:00:27 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:00:33 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:00:38 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:00:44 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:00:49 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:00:54 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:00:59 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:01:04 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:01:10 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:01:15 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:01:20 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:01:26 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:01:31 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:01:36 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:01:42 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:01:47 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:01:53 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:01:58 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:02:03 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:02:09 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:02:15 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:02:20 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:02:26 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:02:32 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:02:37 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:02:43 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:02:49 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:02:54 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:03:00 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:03:05 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:03:11 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:03:26 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:03:32 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:03:37 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:03:43 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:03:46 - Qt Info: Found "ModeSeven.ttf" at ":/data/ModeSeven.ttf"
+00:03:46 - SDL Info (0): Qt UI screen is at (0,0)
+00:03:46 - SDL Info (0): SDL found matching display 0
+00:03:46 - Qt Info: Server GPU: ""
+00:03:46 - Qt Info: Server GFE version: "3.23.0.74"
+00:03:46 - SDL Info (0): VRR requested at 120 Hz; forcing borderless desktop fullscreen for this session
+00:03:46 - SDL Info (0): Presentation snapshot: V-sync enabled, VRR requested yes, VRR enabled yes, refresh 120 Hz, window mode 1
+00:03:46 - SDL Info (0): Video bitrate: 69500 kbps
+00:03:46 - SDL Info (0): Audio channel count: 2
+00:03:46 - SDL Info (0): Audio channel mask: 3
+00:03:46 - SDL Info (0): Desired audio buffer: 720 samples (5760 bytes)
+00:03:46 - SDL Info (0): Obtained audio buffer: 720 samples (5760 bytes)
+00:03:46 - SDL Info (0): SDL audio driver: wasapi
+00:03:47 - Qt Info: Found "gamecontrollerdb.txt" at "C:/Users/haran/AppData/Local/Moonlight Game Streaming Project/Moonlight/cache/gamecontrollerdb.txt"
+00:03:47 - SDL Info (0): Loaded 569 new gamepad mappings
+00:03:47 - SDL Info (0): V-sync disabled
+00:03:47 - SDL Info (0): VRR disabled
+00:03:47 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:03:47 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:03:47 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:03:47 - SDL Info (0): Using shared device for decoding and rendering
+00:03:47 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:03:47 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:03:47 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:03:47 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:03:47 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:03:47 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:03:47 - SDL Info (0): Using D3D11VA accelerated renderer
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] Decoding VUI
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] Format d3d11 chosen by get_format().
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] Decoder GUIDs reported as supported:
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:03:47 - FFmpeg: [h264 @ 000002111E6D4360] Reinit context to 1280x720, pix_fmt: d3d11
+00:03:47 - SDL Info (0): FFmpeg-based video decoder chosen
+00:03:47 - SDL Info (0): V-sync disabled
+00:03:47 - SDL Info (0): VRR disabled
+00:03:47 - SDL Info (0): VRR renderer policy active for probe; VRR presentation disabled
+00:03:47 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:03:47 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:03:47 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:03:47 - SDL Info (0): Using shared device for decoding and rendering
+00:03:47 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:03:47 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:03:47 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:03:47 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:03:47 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:03:47 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:03:47 - SDL Info (0): Using D3D11VA accelerated renderer
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] Decoding VUI
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] Format d3d11 chosen by get_format().
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] Decoder GUIDs reported as supported:
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:03:47 - FFmpeg: [h264 @ 000002111E6D3FE0] Reinit context to 1280x720, pix_fmt: d3d11
+00:03:47 - SDL Info (0): FFmpeg-based video decoder chosen
+00:03:47 - SDL Info (0): Negotiated host color range: limited (VRR renderer policy active)
+00:03:47 - Qt Warning: Your host PC doesn't support PyroWave. Using H.264 instead.
+00:03:47 - Qt Warning: This PC's GPU doesn't support 10-bit HEVC or AV1 decoding for HDR streaming.
+00:03:48 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:03:50 - Qt Info: Found "gamecontrollerdb.txt" at "C:/Users/haran/AppData/Local/Moonlight Game Streaming Project/Moonlight/cache/gamecontrollerdb.txt"
+00:03:50 - SDL Info (0): Loaded 569 new gamepad mappings
+00:03:50 - SDL Info (0): Steam Controller (2026) driver started: motion on, split pads on, grips 0, rumble hold 500 ms, stick stretch off, Bluetooth LE haptics: boost +0 dB, pulse on-time 100%, master gain 0 dB
+00:03:50 - Qt Info: Executing request: "https://192.168.0.206:47984/launch?uniqueid=49c3456590dcd46f&uuid=c48e0b2c5ec34aa09e4cb3bb12cc5ff6&appid=1754467911&mode=2880x1620x60&additionalStates=1&sops=1&rikey=REDACTED&rikeyid=REDACTED&localAudioPlayMode=0&surroundAudioInfo=196610&remoteControllersBitmap=0&gcmap=0&psmap=0&gcpersist=0&clientVrrRequested=1&corever=1"
+00:03:50 - SDL Info (0): Steam Controller: opened \\?\HID#{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&0228de_PID&1303_REV&0100_cce8124b9938&Col03#7&2edb383b&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030} (product 0x1303, interface -1, usage page 0xff00; usage page 0xff00) as Bluetooth LE slot 0
+00:03:50 - SDL Info (0): Steam Controller Bluetooth LE slot 0: controller connected (Bluetooth LE, link generation 1)
+00:03:50 - SDL Info (0): Steam Controller Bluetooth LE slot 0: haptics: 0x82 gain boost +0 dB (ceiling +6 dB), 0x81 pulse on-time x1.0, master gain setting not written
+00:03:50 - SDL Info (0): Steam Controller Bluetooth LE slot 0: link settings (feature report 1, interface 0): lizard mode 0, IMU mode 0x18, Steam watchdog 0 -> accepted
+00:03:50 - SDL Info (0): Steam Controller ble (Bluetooth LE slot 0): firmware build 2026-11-02 22:16Z (0x6ae90bc5), bootloader 2025-09-23 19:46Z, board rev 73, capabilities 0x0, build id 1c979e4f05d6, serial FXA9961404CF5 (board MXA2A61200365), radio fw n/a, dongle fw n/a
+00:03:50 - SDL Warn (0): Steam Controller ble (Bluetooth LE slot 0): NEVER start a controller firmware update from Steam while streaming. The update would target the virtual controller on the host, not the real controller; it cannot succeed and may leave Steam confused. Update firmware with the controller connected directly to a PC running Steam.
+00:03:53 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:03:56 - Qt Info: Launch response: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<root status_code=\"200\"><sessionUrl0>rtspenc://192.168.0.206:48010</sessionUrl0><gamesession>1</gamesession><VirtualDisplayDriverReady>true</VirtualDisplayDriverReady></root>"
+00:03:56 - Qt Info: Found matching interface: "Wi-Fi" "58:CD:C9:CB:FB:63" QFlags<QNetworkInterface::InterfaceFlag>(IsUp|IsRunning|CanBroadcast|CanMulticast)
+00:03:56 - Qt Info: Interface Type: QNetworkInterface::Wifi
+00:03:56 - Qt Info: Interface MTU: 1500
+00:03:56 - SDL Info (0): RTSP port: 48010
+00:03:56 - SDL Info (0): Initializing platform...
+00:03:56 - SDL Info (0): WLAN interface 0 is now in low latency mode
+00:03:56 - SDL Info (0): done
+00:03:56 - SDL Info (0): Resolving host name...
+00:03:56 - SDL Info (0): done
+00:03:56 - SDL Info (0): Initializing audio stream...
+00:03:56 - SDL Info (0): done
+00:03:56 - SDL Info (0): Starting RTSP handshake...
+00:03:56 - SDL Info (0): Audio port: 48000
+00:03:56 - SDL Info (0): Video port: 47998
+00:03:56 - SDL Info (0): Control port: 47999
+00:03:57 - SDL Info (0): done
+00:03:57 - SDL Info (0): Initializing control stream...
+00:03:57 - SDL Info (0): done
+00:03:57 - SDL Info (0): Initializing video stream...
+00:03:57 - SDL Info (0): done
+00:03:57 - SDL Info (0): Initializing input stream...
+00:03:57 - SDL Info (0): done
+00:03:57 - SDL Info (0): Starting control stream...
+00:03:57 - SDL Info (0): done
+00:03:57 - SDL Info (0): Starting video stream...
+00:03:57 - SDL Info (0): Video stream is 2880x1620x60 (format 0x1)
+00:03:57 - SDL Info (0): done
+00:03:57 - SDL Info (0): Starting audio stream...
+00:03:58 - SDL Info (0): Desired audio buffer: 720 samples (5760 bytes)
+00:03:58 - SDL Info (0): Obtained audio buffer: 720 samples (5760 bytes)
+00:03:58 - SDL Info (0): SDL audio driver: wasapi
+00:03:58 - SDL Info (0): Audio stream has 2 channels
+00:03:58 - SDL Info (0): done
+00:03:58 - SDL Info (0): Starting input stream...
+00:03:58 - SDL Info (0): done
+00:03:58 - SDL Info (0): Qt UI screen is at (0,0)
+00:03:58 - SDL Info (0): SDL found matching display 0
+00:03:58 - SDL Info (0): Found display mode with desktop resolution: 2880x1620x120
+00:03:58 - SDL Info (0): Found display mode with desktop resolution: 2880x1620x60
+00:03:58 - SDL Info (0): GPU performance hold: off
+00:03:58 - SDL Info (0): Gamepad 0 (player 0) is: Steam Controller (2026) via Bluetooth LE, Bluetooth LE slot 0 (VID/PID: 0x28de/0x1303) (caps 0x7e7b)
+00:03:58 - SDL Info (0): Sending controller arrival: player 0 type 4 caps 0x7e7b buttons 0x3ffff7ff (Steam Controller Bluetooth LE slot 0, mask 0x1)
+00:03:58 - SDL Info (0): Steam Controller Bluetooth LE slot 0: firmware attributes sent for player 0 (valid mask 0xcf, rc 0)
+00:03:58 - SDL Info (0): Recreating renderer for window event: 1 (0 0)
+00:03:58 - SDL Info (0): V-sync enabled
+00:03:58 - SDL Info (0): VRR enabled
+00:03:58 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:03:58 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:03:58 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:03:58 - SDL Info (0): Using shared device for decoding and rendering
+00:03:58 - SDL Info (0): DXGI selected: waitable=1, maximum frame latency=2 (queue admission, not display timing)
+00:03:58 - SDL Info (0): D3D11 VRR backend enabled: refresh=120 Hz, presentation=DXGI (per-frame tearing/synchronized, estimated timing)
+00:03:58 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:03:58 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:03:58 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:03:58 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:03:58 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:03:58 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:03:58 - SDL Info (0): Received first video packet after 400 ms
+00:03:58 - SDL Info (0): Adaptive buffer: client-timing goal 99.50% (network and decode jitter, plus render work after a blocked D3D11 decode); least buffer meeting it over the last 60 s, aiming at 70% of the allowed loss above what the buffer cap cannot absorb; rise 4 ms/s, fall 1 ms/s; history 120 s
+00:03:58 - SDL Info (0): VRR capture policy: latency_mode=1 history_version=20 calibration_loaded=0 cached_samples=0 start_delay_seed_us=0
+00:03:58 - SDL Info (0): VRR pacing: target 120 Hz with 60 FPS stream (adaptive timestamp playout, frame timing smoothed, buffer 1.00 frames, target 99.50%, history 120 s, tolerance 0.50 ms)
+00:03:58 - SDL Info (0): Using D3D11VA accelerated renderer
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] Decoding VUI
+00:03:58 - SDL Info (0): Video thread priority: VRRPacer MMCSS Playback HIGH accepted
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] Format d3d11 chosen by get_format().
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] Decoder GUIDs reported as supported:
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] Reinit context to 1280x720, pix_fmt: d3d11
+00:03:58 - SDL Info (0): Test decode successful
+00:03:58 - SDL Info (0): Using H.264 SPS fixup
+00:03:58 - SDL Info (0): Renderer 'D3D11VA' chosen
+00:03:58 - SDL Info (0): FFmpeg-based video decoder chosen
+00:03:58 - SDL Info (0): Video thread priority: FFDecoder MMCSS Playback NORMAL accepted
+00:03:58 - SDL Info (0): Dropping window event during flush: 6 (2880 1620)
+00:03:58 - SDL Info (0): IDR frame request sent
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] Decoding VUI
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] Format d3d11 chosen by get_format().
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] Decoder GUIDs reported as supported:
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D38E0] Reinit context to 2880x1632, pix_fmt: d3d11
+00:03:58 - SDL Error (0): D3D11 VRR present-ready fence wait failed or timed out: 258 (target=2 completed=1 event=258 device=0)
+00:03:58 - SDL Error (0): D3D11 VRR present-ready wait detail: stop=deadline elapsed_us=50400 wait_calls=41 signal_us=206 flush_us=3 event_setup_us=7 lock_reacquire_us=1 decode_device=0 separate=0 bind=0 frame_decode_target=0
+00:03:58 - SDL Warn (0): Recreating renderer by internal request: 8193
+00:03:58 - SDL Info (0): 
+Global video stats
+------------------
+Incoming frame rate from network: 8.97 FPS
+Decoding frame rate: 8.97 FPS
+Rendering frame rate: 2.99 FPS
+Host processing latency min/max/average: 4.7/5.3/5.0 ms
+Frames dropped by your network connection: 0.00%
+Frames dropped by client pacing: 66.67%
+Frames skipped before decoding: 0.00%
+Average network latency: 1 ms (variance: 3 ms)
+Average decoding time: 33.02 ms (waiting for the decoder 13.38 ms)
+Incoming smoothness (host): N/A
+
+VRR buffer budget: 8.33 ms (limit 16.67 ms; not added to measured times) | Active
+Buffer status: Growth blocked - producer input not qualified; evidence still ages
+Adaptive input buffer | profile 99.50% | target 8.33 ms | 0 samples / 120 s | tail uncertain
+Window measured frames 0 | absorbed 0 | missed 0 | interval severity score distinct
+Frame lateness 6.84 ms | buffer target 0.00 ms | tolerance 0.50 ms | growth no measured frame
+Release 1000.0 us/s | last-second inputs 0 / misses 0
+Network misses 0 | decode misses 0 (stage totals)
+Client timing (CPU submissions): collecting (target 99.50%)
+Scored time: 0.0s / 2m history (gaps excluded)
+Timing error (1s avg): collecting | Allowed: 0.50 ms | Drops (30s): 2
+Present timing issues (30s): unavailable
+Source-relative submissions (2s): unavailable (no recent adjacent measurements)
+Source-relative OS display (2s): unavailable (no recent adjacent measurements)
+Submission evidence: unavailable
+OS display evidence: unavailable
+
+After decoding (average time per frame):
+  GPU decode wait: 0.00 ms
+  Frame queue: 0.23 ms (queued 0.03 + pacing/other 0.20)
+  Rendering: 43.78 ms (prepare 43.64 + submit 0.14)
+  GPU wait within rendering: 26.78 ms (100% sampled)
+00:03:58 - SDL Info (0): V-sync enabled
+00:03:58 - SDL Info (0): VRR enabled
+00:03:58 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:03:58 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:03:58 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:03:58 - SDL Info (0): Using shared device for decoding and rendering
+00:03:58 - SDL Info (0): DXGI selected: waitable=1, maximum frame latency=2 (queue admission, not display timing)
+00:03:58 - SDL Info (0): D3D11 VRR backend enabled: refresh=120 Hz, presentation=DXGI (per-frame tearing/synchronized, estimated timing)
+00:03:58 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:03:58 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:03:58 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:03:58 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:03:58 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:03:58 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:03:58 - SDL Info (0): Adaptive buffer: client-timing goal 99.50% (network and decode jitter, plus render work after a blocked D3D11 decode); least buffer meeting it over the last 60 s, aiming at 70% of the allowed loss above what the buffer cap cannot absorb; rise 4 ms/s, fall 1 ms/s; history 120 s
+00:03:58 - SDL Info (0): VRR capture policy: latency_mode=1 history_version=20 calibration_loaded=0 cached_samples=0 start_delay_seed_us=0
+00:03:58 - SDL Info (0): VRR pacing: target 120 Hz with 60 FPS stream (adaptive timestamp playout, frame timing smoothed, buffer 1.00 frames, target 99.50%, history 120 s, tolerance 0.50 ms)
+00:03:58 - SDL Info (0): Using D3D11VA accelerated renderer
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] Decoding VUI
+00:03:58 - SDL Info (0): Video thread priority: VRRPacer MMCSS Playback HIGH accepted
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] Format d3d11 chosen by get_format().
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] Decoder GUIDs reported as supported:
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] Reinit context to 1280x720, pix_fmt: d3d11
+00:03:58 - SDL Info (0): Test decode successful
+00:03:58 - SDL Info (0): Using H.264 SPS fixup
+00:03:58 - SDL Info (0): Renderer 'D3D11VA' chosen
+00:03:58 - SDL Info (0): FFmpeg-based video decoder chosen
+00:03:58 - SDL Info (0): IDR frame request sent
+00:03:58 - SDL Info (0): Video thread priority: FFDecoder MMCSS Playback NORMAL accepted
+00:03:58 - SDL Info (0): Requesting IDR frame on behalf of DR
+00:03:58 - SDL Info (0): IDR frame request sent
+00:03:58 - SDL Info (0): Waiting for IDR frame
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] Decoding VUI
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] Format d3d11 chosen by get_format().
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] Decoder GUIDs reported as supported:
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D2060] Reinit context to 2880x1632, pix_fmt: d3d11
+00:03:58 - SDL Error (0): D3D11 VRR present-ready fence wait failed or timed out: 258 (target=1 completed=0 event=258 device=0)
+00:03:58 - SDL Error (0): D3D11 VRR present-ready wait detail: stop=deadline elapsed_us=50762 wait_calls=38 signal_us=412 flush_us=6 event_setup_us=8 lock_reacquire_us=17609 decode_device=0 separate=0 bind=0 frame_decode_target=0
+00:03:58 - SDL Warn (0): Recreating renderer by internal request: 8193
+00:03:58 - SDL Info (0): 
+Global video stats
+------------------
+Incoming frame rate from network: 45.23 FPS
+Decoding frame rate: 45.23 FPS
+Rendering frame rate: 0.00 FPS
+Host processing latency min/max/average: 3.5/4.1/3.9 ms
+Incoming smoothness (host): N/A
+Client timing (CPU submissions): collecting (target 99.50%)
+Scored time: 0.0s / 2m history (gaps excluded)
+Timing error (1s avg): collecting | Allowed: 0.50 ms | Drops (30s): 6
+Present timing issues (30s): unavailable
+Source-relative submissions (2s): unavailable (no recent adjacent measurements)
+Source-relative OS display (2s): unavailable (no recent adjacent measurements)
+Submission evidence: unavailable
+OS display evidence: unavailable
+00:03:58 - SDL Info (0): V-sync enabled
+00:03:58 - SDL Info (0): VRR enabled
+00:03:58 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:03:58 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:03:58 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:03:58 - SDL Info (0): Using shared device for decoding and rendering
+00:03:58 - SDL Info (0): DXGI selected: waitable=1, maximum frame latency=2 (queue admission, not display timing)
+00:03:58 - SDL Info (0): D3D11 VRR backend enabled: refresh=120 Hz, presentation=DXGI (per-frame tearing/synchronized, estimated timing)
+00:03:58 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:03:58 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:03:58 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:03:58 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:03:58 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:03:58 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:03:58 - SDL Info (0): Adaptive buffer: client-timing goal 99.50% (network and decode jitter, plus render work after a blocked D3D11 decode); least buffer meeting it over the last 60 s, aiming at 70% of the allowed loss above what the buffer cap cannot absorb; rise 4 ms/s, fall 1 ms/s; history 120 s
+00:03:58 - SDL Info (0): VRR capture policy: latency_mode=1 history_version=20 calibration_loaded=0 cached_samples=0 start_delay_seed_us=0
+00:03:58 - SDL Info (0): VRR pacing: target 120 Hz with 60 FPS stream (adaptive timestamp playout, frame timing smoothed, buffer 1.00 frames, target 99.50%, history 120 s, tolerance 0.50 ms)
+00:03:58 - SDL Info (0): Using D3D11VA accelerated renderer
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] Decoding VUI
+00:03:58 - SDL Info (0): Video thread priority: VRRPacer MMCSS Playback HIGH accepted
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] Format d3d11 chosen by get_format().
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] Decoder GUIDs reported as supported:
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] Reinit context to 1280x720, pix_fmt: d3d11
+00:03:58 - SDL Info (0): Test decode successful
+00:03:58 - SDL Info (0): Using H.264 SPS fixup
+00:03:58 - SDL Info (0): Renderer 'D3D11VA' chosen
+00:03:58 - SDL Info (0): FFmpeg-based video decoder chosen
+00:03:58 - SDL Info (0): IDR frame request sent
+00:03:58 - SDL Info (0): Video thread priority: FFDecoder MMCSS Playback NORMAL accepted
+00:03:58 - SDL Info (0): Requesting IDR frame on behalf of DR
+00:03:58 - SDL Info (0): IDR frame request sent
+00:03:58 - SDL Info (0): Waiting for IDR frame
+00:03:58 - SDL Info (0): Waiting for IDR frame
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:58 - FFmpeg: [h264 @ 000002111E6D5160] Decoding VUI
+00:03:59 - FFmpeg: [h264 @ 000002111E6D5160] Format d3d11 chosen by get_format().
+00:03:59 - FFmpeg: [h264 @ 000002111E6D5160] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:03:59 - FFmpeg: [h264 @ 000002111E6D5160] Decoder GUIDs reported as supported:
+00:03:59 - FFmpeg: [h264 @ 000002111E6D5160] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D5160] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D5160] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:03:59 - FFmpeg: [h264 @ 000002111E6D5160] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D5160] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:03:59 - FFmpeg: [h264 @ 000002111E6D5160] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:03:59 - FFmpeg: [h264 @ 000002111E6D5160] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D5160] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D5160] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D5160] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D5160] Reinit context to 2880x1632, pix_fmt: d3d11
+00:03:59 - SDL Error (0): D3D11 VRR present-ready fence wait failed or timed out: 258 (target=2 completed=1 event=258 device=0)
+00:03:59 - SDL Error (0): D3D11 VRR present-ready wait detail: stop=deadline elapsed_us=50337 wait_calls=40 signal_us=174 flush_us=2 event_setup_us=7 lock_reacquire_us=2974 decode_device=0 separate=0 bind=0 frame_decode_target=0
+00:03:59 - SDL Warn (0): Recreating renderer by internal request: 8193
+00:03:59 - SDL Info (0): 
+Global video stats
+------------------
+Incoming frame rate from network: 38.71 FPS
+Decoding frame rate: 38.71 FPS
+Rendering frame rate: 9.68 FPS
+Host processing latency min/max/average: 3.9/4.0/3.9 ms
+Frames dropped by your network connection: 0.00%
+Frames dropped by client pacing: 75.00%
+Frames skipped before decoding: 0.00%
+Average network latency: 20 ms (variance: 8 ms)
+Average decoding time: 6.78 ms (waiting for the decoder 0.16 ms)
+Incoming smoothness (host): N/A
+
+VRR buffer budget: 8.33 ms (limit 16.67 ms; not added to measured times) | Active
+Buffer status: Growth blocked - producer input not qualified; evidence still ages
+Adaptive input buffer | profile 99.50% | target 8.33 ms | 0 samples / 120 s | tail uncertain
+Window measured frames 0 | absorbed 0 | missed 0 | interval severity score distinct
+Frame lateness 1.50 ms | buffer target 0.00 ms | tolerance 0.50 ms | growth no measured frame
+Release 1000.0 us/s | last-second inputs 0 / misses 0
+Network misses 0 | decode misses 1 (stage totals)
+Client timing (CPU submissions): collecting (target 99.50%)
+Scored time: 0.0s / 2m history (gaps excluded)
+Timing error (1s avg): collecting | Allowed: 0.50 ms | Drops (30s): 3
+Present timing issues (30s): unavailable
+Source-relative submissions (2s): unavailable (no recent adjacent measurements)
+Source-relative OS display (2s): unavailable (no recent adjacent measurements)
+Submission evidence: unavailable
+OS display evidence: unavailable
+
+After decoding (average time per frame):
+  GPU decode wait: 0.00 ms
+  Frame queue: 0.05 ms (queued 0.02 + pacing/other 0.03)
+  Rendering: 32.77 ms (prepare 32.57 + submit 0.20)
+  GPU wait within rendering: 31.47 ms (100% sampled)
+00:03:59 - SDL Info (0): V-sync enabled
+00:03:59 - SDL Info (0): VRR enabled
+00:03:59 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:03:59 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:03:59 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:03:59 - SDL Info (0): Using shared device for decoding and rendering
+00:03:59 - SDL Info (0): DXGI selected: waitable=1, maximum frame latency=2 (queue admission, not display timing)
+00:03:59 - SDL Info (0): D3D11 VRR backend enabled: refresh=120 Hz, presentation=DXGI (per-frame tearing/synchronized, estimated timing)
+00:03:59 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:03:59 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:03:59 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:03:59 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:03:59 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:03:59 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:03:59 - SDL Info (0): Adaptive buffer: client-timing goal 99.50% (network and decode jitter, plus render work after a blocked D3D11 decode); least buffer meeting it over the last 60 s, aiming at 70% of the allowed loss above what the buffer cap cannot absorb; rise 4 ms/s, fall 1 ms/s; history 120 s
+00:03:59 - SDL Info (0): VRR capture policy: latency_mode=1 history_version=20 calibration_loaded=0 cached_samples=0 start_delay_seed_us=0
+00:03:59 - SDL Info (0): VRR pacing: target 120 Hz with 60 FPS stream (adaptive timestamp playout, frame timing smoothed, buffer 1.00 frames, target 99.50%, history 120 s, tolerance 0.50 ms)
+00:03:59 - SDL Info (0): Using D3D11VA accelerated renderer
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Decoding VUI
+00:03:59 - SDL Info (0): Video thread priority: VRRPacer MMCSS Playback HIGH accepted
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 chosen by get_format().
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Decoder GUIDs reported as supported:
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Reinit context to 1280x720, pix_fmt: d3d11
+00:03:59 - SDL Info (0): Test decode successful
+00:03:59 - SDL Info (0): Using H.264 SPS fixup
+00:03:59 - SDL Info (0): Renderer 'D3D11VA' chosen
+00:03:59 - SDL Info (0): FFmpeg-based video decoder chosen
+00:03:59 - SDL Info (0): IDR frame request sent
+00:03:59 - SDL Info (0): Video thread priority: FFDecoder MMCSS Playback NORMAL accepted
+00:03:59 - SDL Info (0): Requesting IDR frame on behalf of DR
+00:03:59 - SDL Info (0): IDR frame request sent
+00:03:59 - SDL Info (0): Waiting for IDR frame
+00:03:59 - SDL Info (0): Waiting for IDR frame
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Decoding VUI
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 chosen by get_format().
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Decoder GUIDs reported as supported:
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Reinit context to 2880x1632, pix_fmt: d3d11
+00:03:59 - SDL Error (0): D3D11 VRR present-ready fence wait failed or timed out: 258 (target=1 completed=0 event=258 device=0)
+00:03:59 - SDL Error (0): D3D11 VRR present-ready wait detail: stop=deadline elapsed_us=50386 wait_calls=35 signal_us=318 flush_us=3 event_setup_us=6 lock_reacquire_us=1 decode_device=0 separate=0 bind=0 frame_decode_target=0
+00:03:59 - SDL Warn (0): Recreating renderer by internal request: 8193
+00:03:59 - SDL Info (0): 
+Global video stats
+------------------
+Incoming frame rate from network: 45.63 FPS
+Decoding frame rate: 45.63 FPS
+Rendering frame rate: 0.00 FPS
+Host processing latency min/max/average: 3.9/3.9/3.9 ms
+Incoming smoothness (host): N/A
+Client timing (CPU submissions): collecting (target 99.50%)
+Scored time: 0.0s / 2m history (gaps excluded)
+Timing error (1s avg): collecting | Allowed: 0.50 ms | Drops (30s): 3
+Present timing issues (30s): unavailable
+Source-relative submissions (2s): unavailable (no recent adjacent measurements)
+Source-relative OS display (2s): unavailable (no recent adjacent measurements)
+Submission evidence: unavailable
+OS display evidence: unavailable
+00:03:59 - SDL Info (0): V-sync enabled
+00:03:59 - SDL Info (0): VRR enabled
+00:03:59 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:03:59 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:03:59 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:03:59 - SDL Info (0): Using shared device for decoding and rendering
+00:03:59 - SDL Info (0): DXGI selected: waitable=1, maximum frame latency=2 (queue admission, not display timing)
+00:03:59 - SDL Info (0): D3D11 VRR backend enabled: refresh=120 Hz, presentation=DXGI (per-frame tearing/synchronized, estimated timing)
+00:03:59 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:03:59 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:03:59 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:03:59 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:03:59 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:03:59 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:03:59 - SDL Info (0): Adaptive buffer: client-timing goal 99.50% (network and decode jitter, plus render work after a blocked D3D11 decode); least buffer meeting it over the last 60 s, aiming at 70% of the allowed loss above what the buffer cap cannot absorb; rise 4 ms/s, fall 1 ms/s; history 120 s
+00:03:59 - SDL Info (0): VRR capture policy: latency_mode=1 history_version=20 calibration_loaded=0 cached_samples=0 start_delay_seed_us=0
+00:03:59 - SDL Info (0): VRR pacing: target 120 Hz with 60 FPS stream (adaptive timestamp playout, frame timing smoothed, buffer 1.00 frames, target 99.50%, history 120 s, tolerance 0.50 ms)
+00:03:59 - SDL Info (0): Using D3D11VA accelerated renderer
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Decoding VUI
+00:03:59 - SDL Info (0): Video thread priority: VRRPacer MMCSS Playback HIGH accepted
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 chosen by get_format().
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Decoder GUIDs reported as supported:
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Reinit context to 1280x720, pix_fmt: d3d11
+00:03:59 - SDL Info (0): Test decode successful
+00:03:59 - SDL Info (0): Using H.264 SPS fixup
+00:03:59 - SDL Info (0): Renderer 'D3D11VA' chosen
+00:03:59 - SDL Info (0): FFmpeg-based video decoder chosen
+00:03:59 - SDL Info (0): IDR frame request sent
+00:03:59 - SDL Info (0): Video thread priority: FFDecoder MMCSS Playback NORMAL accepted
+00:03:59 - SDL Info (0): Requesting IDR frame on behalf of DR
+00:03:59 - SDL Info (0): IDR frame request sent
+00:03:59 - SDL Info (0): Waiting for IDR frame
+00:03:59 - SDL Info (0): Waiting for IDR frame
+00:03:59 - SDL Info (0): Waiting for IDR frame
+00:03:59 - SDL Info (0): Waiting for IDR frame
+00:03:59 - SDL Info (0): Waiting for IDR frame
+00:03:59 - SDL Info (0): Waiting for IDR frame
+00:03:59 - SDL Info (0): Waiting for IDR frame
+00:03:59 - SDL Info (0): Waiting for IDR frame
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Decoding VUI
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 chosen by get_format().
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Decoder GUIDs reported as supported:
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:03:59 - FFmpeg: [h264 @ 000002111E6D3C60] Reinit context to 2880x1632, pix_fmt: d3d11
+00:04:00 - SDL Info (0): Steam Controller Bluetooth LE slot 0: 133 reports/s, pads touched L no R yes, host haptics: rumble 0, pulse L/R/both 0/0/0, command L/R/both 0/0/0, other 0, host settings 0, adjusted 0
+00:04:01 - SDL Info (0): Unrecoverable frame 61: 7+0=7 received < 8 needed
+00:04:01 - SDL Info (0): Network dropped 1 frame (frame 61)
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): IDR frame request sent
+00:04:01 - SDL Error (0): D3D11 VRR present-ready fence wait failed or timed out: 258 (target=10 completed=9 event=258 device=0)
+00:04:01 - SDL Error (0): D3D11 VRR present-ready wait detail: stop=deadline elapsed_us=50662 wait_calls=38 signal_us=199 flush_us=4 event_setup_us=7 lock_reacquire_us=3 decode_device=0 separate=0 bind=0 frame_decode_target=0
+00:04:01 - SDL Warn (0): Recreating renderer by internal request: 8193
+00:04:01 - SDL Info (0): 
+Global video stats
+------------------
+Incoming frame rate from network: 6.83 FPS
+Decoding frame rate: 6.83 FPS
+Rendering frame rate: 6.14 FPS
+Host processing latency min/max/average: 3.3/3.9/3.6 ms
+Frames dropped by your network connection: 0.00%
+Frames dropped by client pacing: 10.00%
+Frames skipped before decoding: 0.00%
+Average network latency: 405 ms (variance: 15 ms)
+Average decoding time: 6.77 ms (waiting for the decoder 0.46 ms)
+Incoming smoothness (host): N/A
+
+VRR buffer budget: 8.33 ms (limit 27.09 ms; not added to measured times) | Active
+Buffer status: Growth blocked - producer input not qualified; evidence still ages
+Adaptive input buffer | profile 99.50% | target 8.33 ms | 0 samples / 120 s | tail uncertain
+Window measured frames 0 | absorbed 0 | missed 0 | interval severity score distinct
+Frame lateness 1111.77 ms | buffer target 0.00 ms | tolerance 0.50 ms | growth no measured frame
+Release 1000.0 us/s | last-second inputs 0 / misses 0
+Network misses 8 | decode misses 8 (stage totals)
+Client timing (CPU submissions): collecting (target 99.50%)
+Scored time: 0.0s / 2m history (gaps excluded)
+Timing error (1s avg): collecting | Allowed: 0.50 ms | Drops (30s): 1
+Present timing issues (30s): unavailable
+Source-relative submissions (2s): unavailable (no recent adjacent measurements)
+Source-relative OS display (2s): unavailable (no recent adjacent measurements)
+Submission evidence: unavailable
+OS display evidence: unavailable
+
+After decoding (average time per frame):
+  GPU decode wait: 0.00 ms
+  Frame queue: 4.50 ms (queued 4.47 + pacing/other 0.03)
+  Rendering: 16.81 ms (prepare 16.68 + submit 0.13)
+  GPU wait within rendering: 16.19 ms (100% sampled)
+00:04:01 - SDL Info (0): V-sync enabled
+00:04:01 - SDL Info (0): VRR enabled
+00:04:01 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:04:01 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:04:01 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:04:01 - SDL Info (0): Using shared device for decoding and rendering
+00:04:01 - SDL Info (0): DXGI selected: waitable=1, maximum frame latency=2 (queue admission, not display timing)
+00:04:01 - SDL Info (0): D3D11 VRR backend enabled: refresh=120 Hz, presentation=DXGI (per-frame tearing/synchronized, estimated timing)
+00:04:01 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:04:01 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:04:01 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:04:01 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:04:01 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:04:01 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:04:01 - SDL Info (0): Adaptive buffer: client-timing goal 99.50% (network and decode jitter, plus render work after a blocked D3D11 decode); least buffer meeting it over the last 60 s, aiming at 70% of the allowed loss above what the buffer cap cannot absorb; rise 4 ms/s, fall 1 ms/s; history 120 s
+00:04:01 - SDL Info (0): VRR capture policy: latency_mode=1 history_version=20 calibration_loaded=0 cached_samples=0 start_delay_seed_us=0
+00:04:01 - SDL Info (0): VRR pacing: target 120 Hz with 60 FPS stream (adaptive timestamp playout, frame timing smoothed, buffer 1.00 frames, target 99.50%, history 120 s, tolerance 0.50 ms)
+00:04:01 - SDL Info (0): Using D3D11VA accelerated renderer
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] Decoding VUI
+00:04:01 - SDL Info (0): Video thread priority: VRRPacer MMCSS Playback HIGH accepted
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] Format d3d11 chosen by get_format().
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] Decoder GUIDs reported as supported:
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:01 - FFmpeg: [h264 @ 000002111E6D2E60] Reinit context to 1280x720, pix_fmt: d3d11
+00:04:01 - SDL Info (0): Test decode successful
+00:04:01 - SDL Info (0): Using H.264 SPS fixup
+00:04:01 - SDL Info (0): Renderer 'D3D11VA' chosen
+00:04:01 - SDL Info (0): FFmpeg-based video decoder chosen
+00:04:01 - SDL Info (0): IDR frame request sent
+00:04:01 - SDL Info (0): Video thread priority: FFDecoder MMCSS Playback NORMAL accepted
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:01 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:02 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - SDL Info (0): Waiting for IDR frame
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] Decoding VUI
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] Format d3d11 chosen by get_format().
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] Decoder GUIDs reported as supported:
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2E60] Reinit context to 2880x1632, pix_fmt: d3d11
+00:04:03 - SDL Error (0): D3D11 VRR present-ready fence wait failed or timed out: 258 (target=1 completed=0 event=258 device=0)
+00:04:03 - SDL Error (0): D3D11 VRR present-ready wait detail: stop=deadline elapsed_us=50386 wait_calls=40 signal_us=582 flush_us=6 event_setup_us=10 lock_reacquire_us=3 decode_device=0 separate=0 bind=0 frame_decode_target=0
+00:04:03 - SDL Warn (0): Recreating renderer by internal request: 8193
+00:04:03 - SDL Info (0): 
+Global video stats
+------------------
+Incoming frame rate from network: 7.45 FPS
+Decoding frame rate: 7.45 FPS
+Rendering frame rate: 0.00 FPS
+Incoming smoothness (host): N/A
+Client timing (CPU submissions): collecting (target 99.50%)
+Scored time: 0.0s / 2m history (gaps excluded)
+Timing error (1s avg): collecting | Allowed: 0.50 ms | Drops (30s): 1
+Present timing issues (30s): unavailable
+Source-relative submissions (2s): unavailable (no recent adjacent measurements)
+Source-relative OS display (2s): unavailable (no recent adjacent measurements)
+Submission evidence: unavailable
+OS display evidence: unavailable
+00:04:03 - SDL Info (0): V-sync enabled
+00:04:03 - SDL Info (0): VRR enabled
+00:04:03 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:04:03 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:04:03 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:04:03 - SDL Info (0): Using shared device for decoding and rendering
+00:04:03 - SDL Info (0): DXGI selected: waitable=1, maximum frame latency=2 (queue admission, not display timing)
+00:04:03 - SDL Info (0): D3D11 VRR backend enabled: refresh=120 Hz, presentation=DXGI (per-frame tearing/synchronized, estimated timing)
+00:04:03 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:04:03 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:04:03 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:04:03 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:04:03 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:04:03 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:04:03 - SDL Info (0): Adaptive buffer: client-timing goal 99.50% (network and decode jitter, plus render work after a blocked D3D11 decode); least buffer meeting it over the last 60 s, aiming at 70% of the allowed loss above what the buffer cap cannot absorb; rise 4 ms/s, fall 1 ms/s; history 120 s
+00:04:03 - SDL Info (0): VRR capture policy: latency_mode=1 history_version=20 calibration_loaded=0 cached_samples=0 start_delay_seed_us=0
+00:04:03 - SDL Info (0): VRR pacing: target 120 Hz with 60 FPS stream (adaptive timestamp playout, frame timing smoothed, buffer 1.00 frames, target 99.50%, history 120 s, tolerance 0.50 ms)
+00:04:03 - SDL Info (0): Using D3D11VA accelerated renderer
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] Decoding VUI
+00:04:03 - SDL Info (0): Video thread priority: VRRPacer MMCSS Playback HIGH accepted
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] Format d3d11 chosen by get_format().
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] Decoder GUIDs reported as supported:
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:03 - FFmpeg: [h264 @ 000002111E6D2760] Reinit context to 1280x720, pix_fmt: d3d11
+00:04:03 - SDL Info (0): Test decode successful
+00:04:03 - SDL Info (0): Using H.264 SPS fixup
+00:04:03 - SDL Info (0): Renderer 'D3D11VA' chosen
+00:04:03 - SDL Info (0): FFmpeg-based video decoder chosen
+00:04:03 - SDL Info (0): IDR frame request sent
+00:04:03 - SDL Info (0): Video thread priority: FFDecoder MMCSS Playback NORMAL accepted
+00:04:04 - SDL Info (0): Requesting IDR frame on behalf of DR
+00:04:04 - SDL Info (0): IDR frame request sent
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] Decoding VUI
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] Format d3d11 chosen by get_format().
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] Decoder GUIDs reported as supported:
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:04 - FFmpeg: [h264 @ 000002111E6D2760] Reinit context to 2880x1632, pix_fmt: d3d11
+00:04:04 - SDL Info (0): Connection status update: 1
+00:04:04 - SDL Error (0): D3D11 VRR present-ready fence wait failed or timed out: 258 (target=1 completed=0 event=258 device=0)
+00:04:04 - SDL Error (0): D3D11 VRR present-ready wait detail: stop=deadline elapsed_us=51211 wait_calls=40 signal_us=350 flush_us=3 event_setup_us=5 lock_reacquire_us=4 decode_device=0 separate=0 bind=0 frame_decode_target=0
+00:04:04 - SDL Warn (0): Recreating renderer by internal request: 8193
+00:04:04 - SDL Info (0): 
+Global video stats
+------------------
+Incoming frame rate from network: 15.14 FPS
+Decoding frame rate: 15.14 FPS
+Rendering frame rate: 0.00 FPS
+Incoming smoothness (host): N/A
+Client timing (CPU submissions): collecting (target 99.50%)
+Scored time: 0.0s / 2m history (gaps excluded)
+Timing error (1s avg): collecting | Allowed: 0.50 ms | Drops (30s): 1
+Present timing issues (30s): unavailable
+Source-relative submissions (2s): unavailable (no recent adjacent measurements)
+Source-relative OS display (2s): unavailable (no recent adjacent measurements)
+Submission evidence: unavailable
+OS display evidence: unavailable
+00:04:04 - SDL Info (0): V-sync enabled
+00:04:04 - SDL Info (0): VRR enabled
+00:04:04 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:04:04 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:04:04 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:04:04 - SDL Info (0): Using shared device for decoding and rendering
+00:04:04 - SDL Info (0): DXGI selected: waitable=1, maximum frame latency=2 (queue admission, not display timing)
+00:04:04 - SDL Info (0): D3D11 VRR backend enabled: refresh=120 Hz, presentation=DXGI (per-frame tearing/synchronized, estimated timing)
+00:04:04 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:04:04 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:04:04 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:04:04 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:04:04 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:04:04 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:04:04 - SDL Info (0): Adaptive buffer: client-timing goal 99.50% (network and decode jitter, plus render work after a blocked D3D11 decode); least buffer meeting it over the last 60 s, aiming at 70% of the allowed loss above what the buffer cap cannot absorb; rise 4 ms/s, fall 1 ms/s; history 120 s
+00:04:04 - SDL Info (0): VRR capture policy: latency_mode=1 history_version=20 calibration_loaded=0 cached_samples=0 start_delay_seed_us=0
+00:04:04 - SDL Info (0): VRR pacing: target 120 Hz with 60 FPS stream (adaptive timestamp playout, frame timing smoothed, buffer 1.00 frames, target 99.50%, history 120 s, tolerance 0.50 ms)
+00:04:04 - SDL Info (0): Using D3D11VA accelerated renderer
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] Decoding VUI
+00:04:04 - SDL Info (0): Video thread priority: VRRPacer MMCSS Playback HIGH accepted
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] Format d3d11 chosen by get_format().
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] Decoder GUIDs reported as supported:
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:04 - FFmpeg: [h264 @ 000002111E6D3560] Reinit context to 1280x720, pix_fmt: d3d11
+00:04:04 - SDL Info (0): Test decode successful
+00:04:04 - SDL Info (0): Using H.264 SPS fixup
+00:04:04 - SDL Info (0): Renderer 'D3D11VA' chosen
+00:04:04 - SDL Info (0): FFmpeg-based video decoder chosen
+00:04:04 - SDL Info (0): IDR frame request sent
+00:04:04 - SDL Info (0): Video thread priority: FFDecoder MMCSS Playback NORMAL accepted
+00:04:04 - SDL Info (0): Requesting IDR frame on behalf of DR
+00:04:04 - SDL Info (0): IDR frame request sent
+00:04:04 - SDL Info (0): Waiting for IDR frame
+00:04:04 - SDL Info (0): Waiting for IDR frame
+00:04:04 - SDL Info (0): Waiting for IDR frame
+00:04:04 - SDL Info (0): Waiting for IDR frame
+00:04:04 - SDL Info (0): Waiting for IDR frame
+00:04:04 - SDL Info (0): Waiting for IDR frame
+00:04:04 - SDL Info (0): Waiting for IDR frame
+00:04:04 - SDL Info (0): Waiting for IDR frame
+00:04:04 - SDL Info (0): Waiting for IDR frame
+00:04:04 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:05 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:06 - SDL Info (0): Waiting for IDR frame
+00:04:07 - SDL Info (0): Waiting for IDR frame
+00:04:07 - SDL Info (0): Waiting for IDR frame
+00:04:07 - SDL Info (0): Waiting for IDR frame
+00:04:07 - SDL Info (0): Waiting for IDR frame
+00:04:07 - SDL Info (0): Waiting for IDR frame
+00:04:07 - SDL Info (0): Waiting for IDR frame
+00:04:07 - SDL Info (0): Waiting for IDR frame
+00:04:07 - SDL Info (0): Waiting for IDR frame
+00:04:07 - SDL Info (0): Waiting for IDR frame
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] Decoding VUI
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] Format d3d11 chosen by get_format().
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] Decoder GUIDs reported as supported:
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3560] Reinit context to 2880x1632, pix_fmt: d3d11
+00:04:08 - SDL Error (0): D3D11 VRR present-ready fence wait failed or timed out: 258 (target=1 completed=0 event=258 device=0)
+00:04:08 - SDL Error (0): D3D11 VRR present-ready wait detail: stop=deadline elapsed_us=51115 wait_calls=38 signal_us=475 flush_us=7 event_setup_us=8 lock_reacquire_us=3 decode_device=0 separate=0 bind=0 frame_decode_target=0
+00:04:08 - SDL Warn (0): Recreating renderer by internal request: 8193
+00:04:08 - SDL Info (0): 
+Global video stats
+------------------
+Incoming frame rate from network: 12.22 FPS
+Decoding frame rate: 12.22 FPS
+Rendering frame rate: 0.00 FPS
+Host processing latency min/max/average: 3.8/3.8/3.8 ms
+Incoming smoothness (host): N/A
+Client timing (CPU submissions): collecting (target 99.50%)
+Scored time: 0.0s / 2m history (gaps excluded)
+Timing error (1s avg): collecting | Allowed: 0.50 ms | Drops (30s): 2
+Present timing issues (30s): unavailable
+Source-relative submissions (2s): unavailable (no recent adjacent measurements)
+Source-relative OS display (2s): unavailable (no recent adjacent measurements)
+Submission evidence: unavailable
+OS display evidence: unavailable
+00:04:08 - SDL Info (0): V-sync enabled
+00:04:08 - SDL Info (0): VRR enabled
+00:04:08 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:04:08 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:04:08 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:04:08 - SDL Info (0): Using shared device for decoding and rendering
+00:04:08 - SDL Info (0): DXGI selected: waitable=1, maximum frame latency=2 (queue admission, not display timing)
+00:04:08 - SDL Info (0): D3D11 VRR backend enabled: refresh=120 Hz, presentation=DXGI (per-frame tearing/synchronized, estimated timing)
+00:04:08 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:04:08 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:04:08 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:04:08 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:04:08 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:04:08 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:04:08 - SDL Info (0): Adaptive buffer: client-timing goal 99.50% (network and decode jitter, plus render work after a blocked D3D11 decode); least buffer meeting it over the last 60 s, aiming at 70% of the allowed loss above what the buffer cap cannot absorb; rise 4 ms/s, fall 1 ms/s; history 120 s
+00:04:08 - SDL Info (0): VRR capture policy: latency_mode=1 history_version=20 calibration_loaded=0 cached_samples=0 start_delay_seed_us=0
+00:04:08 - SDL Info (0): VRR pacing: target 120 Hz with 60 FPS stream (adaptive timestamp playout, frame timing smoothed, buffer 1.00 frames, target 99.50%, history 120 s, tolerance 0.50 ms)
+00:04:08 - SDL Info (0): Using D3D11VA accelerated renderer
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] Decoding VUI
+00:04:08 - SDL Info (0): Video thread priority: VRRPacer MMCSS Playback HIGH accepted
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 chosen by get_format().
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] Decoder GUIDs reported as supported:
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] Reinit context to 1280x720, pix_fmt: d3d11
+00:04:08 - SDL Info (0): Test decode successful
+00:04:08 - SDL Info (0): Using H.264 SPS fixup
+00:04:08 - SDL Info (0): Renderer 'D3D11VA' chosen
+00:04:08 - SDL Info (0): FFmpeg-based video decoder chosen
+00:04:08 - SDL Info (0): IDR frame request sent
+00:04:08 - SDL Info (0): Video thread priority: FFDecoder MMCSS Playback NORMAL accepted
+00:04:08 - SDL Info (0): Requesting IDR frame on behalf of DR
+00:04:08 - SDL Info (0): IDR frame request sent
+00:04:08 - SDL Info (0): Waiting for IDR frame
+00:04:08 - SDL Info (0): Waiting for IDR frame
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] Decoding VUI
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 chosen by get_format().
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] Decoder GUIDs reported as supported:
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D3C60] Reinit context to 2880x1632, pix_fmt: d3d11
+00:04:08 - SDL Error (0): D3D11 VRR present-ready fence wait failed or timed out: 258 (target=1 completed=0 event=258 device=0)
+00:04:08 - SDL Error (0): D3D11 VRR present-ready wait detail: stop=deadline elapsed_us=51668 wait_calls=36 signal_us=417 flush_us=14 event_setup_us=9 lock_reacquire_us=3 decode_device=0 separate=0 bind=0 frame_decode_target=0
+00:04:08 - SDL Warn (0): Recreating renderer by internal request: 8193
+00:04:08 - SDL Info (0): 
+Global video stats
+------------------
+Incoming frame rate from network: 7.32 FPS
+Decoding frame rate: 7.32 FPS
+Rendering frame rate: 0.00 FPS
+Incoming smoothness (host): N/A
+Client timing (CPU submissions): collecting (target 99.50%)
+Scored time: 0.0s / 2m history (gaps excluded)
+Timing error (1s avg): collecting | Allowed: 0.50 ms | Drops (30s): 1
+Present timing issues (30s): unavailable
+Source-relative submissions (2s): unavailable (no recent adjacent measurements)
+Source-relative OS display (2s): unavailable (no recent adjacent measurements)
+Submission evidence: unavailable
+OS display evidence: unavailable
+00:04:08 - SDL Info (0): V-sync enabled
+00:04:08 - SDL Info (0): VRR enabled
+00:04:08 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:04:08 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:04:08 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:04:08 - SDL Info (0): Using shared device for decoding and rendering
+00:04:08 - SDL Info (0): DXGI selected: waitable=1, maximum frame latency=2 (queue admission, not display timing)
+00:04:08 - SDL Info (0): D3D11 VRR backend enabled: refresh=120 Hz, presentation=DXGI (per-frame tearing/synchronized, estimated timing)
+00:04:08 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:04:08 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:04:08 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:04:08 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:04:08 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:04:08 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:04:08 - SDL Info (0): Adaptive buffer: client-timing goal 99.50% (network and decode jitter, plus render work after a blocked D3D11 decode); least buffer meeting it over the last 60 s, aiming at 70% of the allowed loss above what the buffer cap cannot absorb; rise 4 ms/s, fall 1 ms/s; history 120 s
+00:04:08 - SDL Info (0): VRR capture policy: latency_mode=1 history_version=20 calibration_loaded=0 cached_samples=0 start_delay_seed_us=0
+00:04:08 - SDL Info (0): VRR pacing: target 120 Hz with 60 FPS stream (adaptive timestamp playout, frame timing smoothed, buffer 1.00 frames, target 99.50%, history 120 s, tolerance 0.50 ms)
+00:04:08 - SDL Info (0): Using D3D11VA accelerated renderer
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] Decoding VUI
+00:04:08 - SDL Info (0): Video thread priority: VRRPacer MMCSS Playback HIGH accepted
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] Format d3d11 chosen by get_format().
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] Decoder GUIDs reported as supported:
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:08 - FFmpeg: [h264 @ 000002111E6D38E0] Reinit context to 1280x720, pix_fmt: d3d11
+00:04:08 - SDL Info (0): Test decode successful
+00:04:08 - SDL Info (0): Using H.264 SPS fixup
+00:04:08 - SDL Info (0): Renderer 'D3D11VA' chosen
+00:04:08 - SDL Info (0): FFmpeg-based video decoder chosen
+00:04:08 - SDL Info (0): IDR frame request sent
+00:04:08 - SDL Info (0): Video thread priority: FFDecoder MMCSS Playback NORMAL accepted
+00:04:08 - SDL Info (0): Requesting IDR frame on behalf of DR
+00:04:08 - SDL Info (0): IDR frame request sent
+00:04:09 - SDL Info (0): Waiting for IDR frame
+00:04:09 - SDL Info (0): Waiting for IDR frame
+00:04:09 - SDL Info (0): Waiting for IDR frame
+00:04:09 - SDL Info (0): Waiting for IDR frame
+00:04:09 - SDL Info (0): Waiting for IDR frame
+00:04:09 - SDL Info (0): Waiting for IDR frame
+00:04:09 - SDL Info (0): Waiting for IDR frame
+00:04:09 - SDL Info (0): Waiting for IDR frame
+00:04:09 - SDL Info (0): Waiting for IDR frame
+00:04:09 - SDL Info (0): Waiting for IDR frame
+00:04:09 - SDL Info (0): Waiting for IDR frame
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] Decoding VUI
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] Format d3d11 chosen by get_format().
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] Decoder GUIDs reported as supported:
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:09 - FFmpeg: [h264 @ 000002111E6D38E0] Reinit context to 2880x1632, pix_fmt: d3d11
+00:04:09 - SDL Error (0): D3D11 VRR present-ready fence wait failed or timed out: 258 (target=1 completed=0 event=258 device=0)
+00:04:09 - SDL Error (0): D3D11 VRR present-ready wait detail: stop=deadline elapsed_us=50117 wait_calls=36 signal_us=384 flush_us=4 event_setup_us=7 lock_reacquire_us=2 decode_device=0 separate=0 bind=0 frame_decode_target=0
+00:04:09 - SDL Warn (0): Recreating renderer by internal request: 8193
+00:04:09 - SDL Info (0): 
+Global video stats
+------------------
+Incoming frame rate from network: 14.55 FPS
+Decoding frame rate: 14.55 FPS
+Rendering frame rate: 0.00 FPS
+Incoming smoothness (host): N/A
+Client timing (CPU submissions): collecting (target 99.50%)
+Scored time: 0.0s / 2m history (gaps excluded)
+Timing error (1s avg): collecting | Allowed: 0.50 ms | Drops (30s): 1
+Present timing issues (30s): unavailable
+Source-relative submissions (2s): unavailable (no recent adjacent measurements)
+Source-relative OS display (2s): unavailable (no recent adjacent measurements)
+Submission evidence: unavailable
+OS display evidence: unavailable
+00:04:09 - SDL Info (0): V-sync enabled
+00:04:09 - SDL Info (0): VRR enabled
+00:04:09 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:04:09 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:04:09 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:04:09 - SDL Info (0): Using shared device for decoding and rendering
+00:04:09 - SDL Info (0): DXGI selected: waitable=1, maximum frame latency=2 (queue admission, not display timing)
+00:04:09 - SDL Info (0): D3D11 VRR backend enabled: refresh=120 Hz, presentation=DXGI (per-frame tearing/synchronized, estimated timing)
+00:04:09 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:04:09 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:04:09 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:04:09 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:04:09 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:04:09 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:04:09 - SDL Info (0): Adaptive buffer: client-timing goal 99.50% (network and decode jitter, plus render work after a blocked D3D11 decode); least buffer meeting it over the last 60 s, aiming at 70% of the allowed loss above what the buffer cap cannot absorb; rise 4 ms/s, fall 1 ms/s; history 120 s
+00:04:09 - SDL Info (0): VRR capture policy: latency_mode=1 history_version=20 calibration_loaded=0 cached_samples=0 start_delay_seed_us=0
+00:04:09 - SDL Info (0): VRR pacing: target 120 Hz with 60 FPS stream (adaptive timestamp playout, frame timing smoothed, buffer 1.00 frames, target 99.50%, history 120 s, tolerance 0.50 ms)
+00:04:09 - SDL Info (0): Using D3D11VA accelerated renderer
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] Decoding VUI
+00:04:09 - SDL Info (0): Video thread priority: VRRPacer MMCSS Playback HIGH accepted
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] Format d3d11 chosen by get_format().
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] Decoder GUIDs reported as supported:
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:09 - FFmpeg: [h264 @ 000002111E6D3560] Reinit context to 1280x720, pix_fmt: d3d11
+00:04:09 - SDL Info (0): Test decode successful
+00:04:09 - SDL Info (0): Using H.264 SPS fixup
+00:04:09 - SDL Info (0): Renderer 'D3D11VA' chosen
+00:04:09 - SDL Info (0): FFmpeg-based video decoder chosen
+00:04:09 - SDL Info (0): IDR frame request sent
+00:04:09 - SDL Info (0): Video thread priority: FFDecoder MMCSS Playback NORMAL accepted
+00:04:09 - SDL Info (0): Requesting IDR frame on behalf of DR
+00:04:09 - SDL Info (0): IDR frame request sent
+00:04:09 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Steam Controller Bluetooth LE slot 0: 133 reports/s, pads touched L no R yes, host haptics: rumble 0, pulse L/R/both 0/0/0, command L/R/both 0/0/0, other 0, host settings 0, adjusted 0
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:10 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Reached consecutive drop limit
+00:04:11 - SDL Info (0): IDR frame request sent
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:11 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] Decoding VUI
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] Format d3d11 chosen by get_format().
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] Decoder GUIDs reported as supported:
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3560] Reinit context to 2880x1632, pix_fmt: d3d11
+00:04:12 - SDL Error (0): D3D11 VRR present-ready fence wait failed or timed out: 258 (target=1 completed=0 event=258 device=0)
+00:04:12 - SDL Error (0): D3D11 VRR present-ready wait detail: stop=deadline elapsed_us=51161 wait_calls=34 signal_us=969 flush_us=10 event_setup_us=8 lock_reacquire_us=1629 decode_device=0 separate=0 bind=0 frame_decode_target=0
+00:04:12 - SDL Warn (0): Recreating renderer by internal request: 8193
+00:04:12 - SDL Info (0): Video decode unit queue overflow
+00:04:12 - SDL Info (0): IDR frame request sent
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): 
+Global video stats
+------------------
+Incoming frame rate from network: 28.34 FPS
+Decoding frame rate: 28.34 FPS
+Rendering frame rate: 0.00 FPS
+Host processing latency min/max/average: 3.6/3.9/3.8 ms
+Incoming smoothness (host): N/A
+Client timing (CPU submissions): collecting (target 99.50%)
+Scored time: 0.0s / 2m history (gaps excluded)
+Timing error (1s avg): collecting | Allowed: 0.50 ms | Drops (30s): 5
+Present timing issues (30s): unavailable
+Source-relative submissions (2s): unavailable (no recent adjacent measurements)
+Source-relative OS display (2s): unavailable (no recent adjacent measurements)
+Submission evidence: unavailable
+OS display evidence: unavailable
+00:04:12 - SDL Info (0): V-sync enabled
+00:04:12 - SDL Info (0): VRR enabled
+00:04:12 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:04:12 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:04:12 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:04:12 - SDL Info (0): Using shared device for decoding and rendering
+00:04:12 - SDL Info (0): DXGI selected: waitable=1, maximum frame latency=2 (queue admission, not display timing)
+00:04:12 - SDL Info (0): D3D11 VRR backend enabled: refresh=120 Hz, presentation=DXGI (per-frame tearing/synchronized, estimated timing)
+00:04:12 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:04:12 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:04:12 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:04:12 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:04:12 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:04:12 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:04:12 - SDL Info (0): Adaptive buffer: client-timing goal 99.50% (network and decode jitter, plus render work after a blocked D3D11 decode); least buffer meeting it over the last 60 s, aiming at 70% of the allowed loss above what the buffer cap cannot absorb; rise 4 ms/s, fall 1 ms/s; history 120 s
+00:04:12 - SDL Info (0): VRR capture policy: latency_mode=1 history_version=20 calibration_loaded=0 cached_samples=0 start_delay_seed_us=0
+00:04:12 - SDL Info (0): VRR pacing: target 120 Hz with 60 FPS stream (adaptive timestamp playout, frame timing smoothed, buffer 1.00 frames, target 99.50%, history 120 s, tolerance 0.50 ms)
+00:04:12 - SDL Info (0): Using D3D11VA accelerated renderer
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] Decoding VUI
+00:04:12 - SDL Info (0): Video thread priority: VRRPacer MMCSS Playback HIGH accepted
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] Format d3d11 chosen by get_format().
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] Decoder GUIDs reported as supported:
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] Reinit context to 1280x720, pix_fmt: d3d11
+00:04:12 - SDL Info (0): Test decode successful
+00:04:12 - SDL Info (0): Using H.264 SPS fixup
+00:04:12 - SDL Info (0): Renderer 'D3D11VA' chosen
+00:04:12 - SDL Info (0): FFmpeg-based video decoder chosen
+00:04:12 - SDL Info (0): IDR frame request sent
+00:04:12 - SDL Info (0): Video thread priority: FFDecoder MMCSS Playback NORMAL accepted
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] Decoding VUI
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] Format d3d11 chosen by get_format().
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] Decoder GUIDs reported as supported:
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D2E60] Reinit context to 2880x1632, pix_fmt: d3d11
+00:04:12 - SDL Error (0): D3D11 VRR present-ready fence wait failed or timed out: 258 (target=1 completed=0 event=258 device=0)
+00:04:12 - SDL Error (0): D3D11 VRR present-ready wait detail: stop=deadline elapsed_us=50192 wait_calls=35 signal_us=498 flush_us=4 event_setup_us=5 lock_reacquire_us=15368 decode_device=0 separate=0 bind=0 frame_decode_target=0
+00:04:12 - SDL Warn (0): Recreating renderer by internal request: 8193
+00:04:12 - SDL Info (0): 
+Global video stats
+------------------
+Incoming frame rate from network: 56.23 FPS
+Decoding frame rate: 56.23 FPS
+Rendering frame rate: 0.00 FPS
+Host processing latency min/max/average: 3.5/4.1/3.8 ms
+Incoming smoothness (host): N/A
+Client timing (CPU submissions): collecting (target 99.50%)
+Scored time: 0.0s / 2m history (gaps excluded)
+Timing error (1s avg): collecting | Allowed: 0.50 ms | Drops (30s): 6
+Present timing issues (30s): unavailable
+Source-relative submissions (2s): unavailable (no recent adjacent measurements)
+Source-relative OS display (2s): unavailable (no recent adjacent measurements)
+Submission evidence: unavailable
+OS display evidence: unavailable
+00:04:12 - SDL Info (0): V-sync enabled
+00:04:12 - SDL Info (0): VRR enabled
+00:04:12 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:04:12 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:04:12 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:04:12 - SDL Info (0): Using shared device for decoding and rendering
+00:04:12 - SDL Info (0): DXGI selected: waitable=1, maximum frame latency=2 (queue admission, not display timing)
+00:04:12 - SDL Info (0): D3D11 VRR backend enabled: refresh=120 Hz, presentation=DXGI (per-frame tearing/synchronized, estimated timing)
+00:04:12 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:04:12 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:04:12 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:04:12 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:04:12 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:04:12 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:04:12 - SDL Info (0): Adaptive buffer: client-timing goal 99.50% (network and decode jitter, plus render work after a blocked D3D11 decode); least buffer meeting it over the last 60 s, aiming at 70% of the allowed loss above what the buffer cap cannot absorb; rise 4 ms/s, fall 1 ms/s; history 120 s
+00:04:12 - SDL Info (0): Video decode unit queue overflow
+00:04:12 - SDL Info (0): IDR frame request sent
+00:04:12 - SDL Info (0): VRR capture policy: latency_mode=1 history_version=20 calibration_loaded=0 cached_samples=0 start_delay_seed_us=0
+00:04:12 - SDL Info (0): VRR pacing: target 120 Hz with 60 FPS stream (adaptive timestamp playout, frame timing smoothed, buffer 1.00 frames, target 99.50%, history 120 s, tolerance 0.50 ms)
+00:04:12 - SDL Info (0): Using D3D11VA accelerated renderer
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] Decoding VUI
+00:04:12 - SDL Info (0): Video thread priority: VRRPacer MMCSS Playback HIGH accepted
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] Format d3d11 chosen by get_format().
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] Decoder GUIDs reported as supported:
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] Reinit context to 1280x720, pix_fmt: d3d11
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Test decode successful
+00:04:12 - SDL Info (0): Using H.264 SPS fixup
+00:04:12 - SDL Info (0): Renderer 'D3D11VA' chosen
+00:04:12 - SDL Info (0): FFmpeg-based video decoder chosen
+00:04:12 - SDL Info (0): IDR frame request sent
+00:04:12 - SDL Info (0): Video thread priority: FFDecoder MMCSS Playback NORMAL accepted
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - SDL Info (0): Waiting for IDR frame
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] Decoding VUI
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] Format d3d11 chosen by get_format().
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] Decoder GUIDs reported as supported:
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D31E0] Reinit context to 2880x1632, pix_fmt: d3d11
+00:04:12 - SDL Error (0): D3D11 VRR present-ready fence wait failed or timed out: 258 (target=1 completed=0 event=258 device=0)
+00:04:12 - SDL Error (0): D3D11 VRR present-ready wait detail: stop=deadline elapsed_us=51400 wait_calls=42 signal_us=332 flush_us=3 event_setup_us=6 lock_reacquire_us=1 decode_device=0 separate=0 bind=0 frame_decode_target=0
+00:04:12 - SDL Warn (0): Recreating renderer by internal request: 8193
+00:04:12 - SDL Info (0): 
+Global video stats
+------------------
+Incoming frame rate from network: 56.39 FPS
+Decoding frame rate: 56.39 FPS
+Rendering frame rate: 0.00 FPS
+Host processing latency min/max/average: 3.9/3.9/3.9 ms
+Incoming smoothness (host): N/A
+Client timing (CPU submissions): collecting (target 99.50%)
+Scored time: 0.0s / 2m history (gaps excluded)
+Timing error (1s avg): collecting | Allowed: 0.50 ms | Drops (30s): 4
+Present timing issues (30s): unavailable
+Source-relative submissions (2s): unavailable (no recent adjacent measurements)
+Source-relative OS display (2s): unavailable (no recent adjacent measurements)
+Submission evidence: unavailable
+OS display evidence: unavailable
+00:04:12 - SDL Info (0): V-sync enabled
+00:04:12 - SDL Info (0): VRR enabled
+00:04:12 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:04:12 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:04:12 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:04:12 - SDL Info (0): Using shared device for decoding and rendering
+00:04:12 - SDL Info (0): DXGI selected: waitable=1, maximum frame latency=2 (queue admission, not display timing)
+00:04:12 - SDL Info (0): D3D11 VRR backend enabled: refresh=120 Hz, presentation=DXGI (per-frame tearing/synchronized, estimated timing)
+00:04:12 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:04:12 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:04:12 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:04:12 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:04:12 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:04:12 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:04:12 - SDL Info (0): Adaptive buffer: client-timing goal 99.50% (network and decode jitter, plus render work after a blocked D3D11 decode); least buffer meeting it over the last 60 s, aiming at 70% of the allowed loss above what the buffer cap cannot absorb; rise 4 ms/s, fall 1 ms/s; history 120 s
+00:04:12 - SDL Info (0): VRR capture policy: latency_mode=1 history_version=20 calibration_loaded=0 cached_samples=0 start_delay_seed_us=0
+00:04:12 - SDL Info (0): VRR pacing: target 120 Hz with 60 FPS stream (adaptive timestamp playout, frame timing smoothed, buffer 1.00 frames, target 99.50%, history 120 s, tolerance 0.50 ms)
+00:04:12 - SDL Info (0): Using D3D11VA accelerated renderer
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] Decoding VUI
+00:04:12 - SDL Info (0): Video thread priority: VRRPacer MMCSS Playback HIGH accepted
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 chosen by get_format().
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] Decoder GUIDs reported as supported:
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] Reinit context to 1280x720, pix_fmt: d3d11
+00:04:12 - SDL Info (0): Test decode successful
+00:04:12 - SDL Info (0): Using H.264 SPS fixup
+00:04:12 - SDL Info (0): Renderer 'D3D11VA' chosen
+00:04:12 - SDL Info (0): FFmpeg-based video decoder chosen
+00:04:12 - SDL Info (0): IDR frame request sent
+00:04:12 - SDL Info (0): Video thread priority: FFDecoder MMCSS Playback NORMAL accepted
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] Decoding VUI
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 chosen by get_format().
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] Decoder GUIDs reported as supported:
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:12 - FFmpeg: [h264 @ 000002111E6D3C60] Reinit context to 2880x1632, pix_fmt: d3d11
+00:04:13 - SDL Error (0): D3D11 VRR present-ready fence wait failed or timed out: 258 (target=1 completed=0 event=258 device=0)
+00:04:13 - SDL Error (0): D3D11 VRR present-ready wait detail: stop=deadline elapsed_us=50494 wait_calls=42 signal_us=308 flush_us=4 event_setup_us=7 lock_reacquire_us=10395 decode_device=0 separate=0 bind=0 frame_decode_target=0
+00:04:13 - SDL Warn (0): Recreating renderer by internal request: 8193
+00:04:13 - SDL Info (0): Video decode unit queue overflow
+00:04:13 - SDL Info (0): IDR frame request sent
+00:04:13 - SDL Info (0): Waiting for IDR frame
+00:04:13 - SDL Info (0): Waiting for IDR frame
+00:04:13 - SDL Info (0): Waiting for IDR frame
+00:04:13 - SDL Info (0): Waiting for IDR frame
+00:04:13 - SDL Info (0): Waiting for IDR frame
+00:04:13 - SDL Info (0): Waiting for IDR frame
+00:04:13 - SDL Info (0): Waiting for IDR frame
+00:04:13 - SDL Info (0): Waiting for IDR frame
+00:04:13 - SDL Info (0): 
+Global video stats
+------------------
+Incoming frame rate from network: 37.79 FPS
+Decoding frame rate: 37.79 FPS
+Rendering frame rate: 0.00 FPS
+Host processing latency min/max/average: 3.9/4.1/4.0 ms
+Incoming smoothness (host): N/A
+Client timing (CPU submissions): collecting (target 99.50%)
+Scored time: 0.0s / 2m history (gaps excluded)
+Timing error (1s avg): collecting | Allowed: 0.50 ms | Drops (30s): 5
+Present timing issues (30s): unavailable
+Source-relative submissions (2s): unavailable (no recent adjacent measurements)
+Source-relative OS display (2s): unavailable (no recent adjacent measurements)
+Submission evidence: unavailable
+OS display evidence: unavailable
+00:04:13 - SDL Info (0): V-sync enabled
+00:04:13 - SDL Info (0): VRR enabled
+00:04:13 - SDL Info (0): Detected GPU 0: Qualcomm(R) Adreno(TM) X1-85 GPU (4d4f4351:36334330)
+00:04:13 - SDL Info (0): Avoiding texture sharing on known broken GPU vendor
+00:04:13 - SDL Info (0): Decoder texture access: copy (fence: monitored)
+00:04:13 - SDL Info (0): Using shared device for decoding and rendering
+00:04:13 - SDL Info (0): DXGI selected: waitable=1, maximum frame latency=2 (queue admission, not display timing)
+00:04:13 - SDL Info (0): D3D11 VRR backend enabled: refresh=120 Hz, presentation=DXGI (per-frame tearing/synchronized, estimated timing)
+00:04:13 - Qt Info: Found "d3d11_vertex.fxc" at ":/data/d3d11_vertex.fxc"
+00:04:13 - Qt Info: Found "d3d11_overlay_pixel.fxc" at ":/data/d3d11_overlay_pixel.fxc"
+00:04:13 - Qt Info: Found "d3d11_yuv420_pixel.fxc" at ":/data/d3d11_yuv420_pixel.fxc"
+00:04:13 - Qt Info: Found "d3d11_ayuv_pixel.fxc" at ":/data/d3d11_ayuv_pixel.fxc"
+00:04:13 - Qt Info: Found "d3d11_y410_pixel.fxc" at ":/data/d3d11_y410_pixel.fxc"
+00:04:13 - Qt Info: Found "d3d11_yuv_planar_pixel.fxc" at ":/data/d3d11_yuv_planar_pixel.fxc"
+00:04:13 - SDL Info (0): Adaptive buffer: client-timing goal 99.50% (network and decode jitter, plus render work after a blocked D3D11 decode); least buffer meeting it over the last 60 s, aiming at 70% of the allowed loss above what the buffer cap cannot absorb; rise 4 ms/s, fall 1 ms/s; history 120 s
+00:04:13 - SDL Info (0): VRR capture policy: latency_mode=1 history_version=20 calibration_loaded=0 cached_samples=0 start_delay_seed_us=0
+00:04:13 - SDL Info (0): VRR pacing: target 120 Hz with 60 FPS stream (adaptive timestamp playout, frame timing smoothed, buffer 1.00 frames, target 99.50%, history 120 s, tolerance 0.50 ms)
+00:04:13 - SDL Info (0): Using D3D11VA accelerated renderer
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] Decoding VUI
+00:04:13 - SDL Info (0): Video thread priority: VRRPacer MMCSS Playback HIGH accepted
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] Format d3d11 chosen by get_format().
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] Decoder GUIDs reported as supported:
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] Reinit context to 1280x720, pix_fmt: d3d11
+00:04:13 - SDL Info (0): Test decode successful
+00:04:13 - SDL Info (0): Using H.264 SPS fixup
+00:04:13 - SDL Info (0): Renderer 'D3D11VA' chosen
+00:04:13 - SDL Info (0): FFmpeg-based video decoder chosen
+00:04:13 - SDL Info (0): IDR frame request sent
+00:04:13 - SDL Info (0): Video thread priority: FFDecoder MMCSS Playback NORMAL accepted
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 7(SPS), nal_ref_idc: 3
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 8(PPS), nal_ref_idc: 3
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] nal_unit_type: 5(IDR), nal_ref_idc: 3
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] Decoding VUI
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] Format d3d11 chosen by get_format().
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] Format d3d11 requires hwaccel h264_d3d11va2 initialisation.
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] Decoder GUIDs reported as supported:
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {1b81be68-a0c7-11d3-b984-00c04f2e73c5} 103
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {5b11d51b-2f4c-4452-bcc3-09f2a1160cc0} 103
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {107af0e0-ef1a-4d19-aba8-67a163073d13} 104
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {463707f8-a1d0-4585-876d-83aa6d60b89e} 103
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {a4c749ef-6ecf-48aa-8448-50a7a1165ff7} 104
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {b8be4ccb-cf53-46ba-8d59-d6b8a6da5d2a} 103 104
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {129f7b40-5c5b-48e5-8178-48c0cea05a90} 103
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {886348bd-b400-4378-a5ae-654adc0947dc} 103
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {4b3a8728-6585-4675-955e-d692ac71ee07} 103
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] {bdb6ac4f-8d9c-44f7-9731-52761c4924a9} 103
+00:04:13 - FFmpeg: [h264 @ 000002111E6D2E60] Reinit context to 2880x1632, pix_fmt: d3d11
+00:04:16 - SDL Info (0): Detected quit key combo
+00:04:16 - SDL Info (0): Quit event received
+00:04:16 - SDL Info (0): Raising 3 keys
+00:04:16 - SDL Info (0): Steam Controller Bluetooth LE slot 0: controller disconnected (link generation 1)
+00:04:16 - SDL Info (0): Steam Controller Bluetooth LE slot 0: stop sequence sent (lizard mode 1, IMU mode 0 -> accepted)
+00:04:16 - SDL Info (0): Steam Controller (2026) driver stopped
+00:04:16 - SDL Info (0): 
+Global video stats
+------------------
+Incoming frame rate from network: 38.58 FPS
+Decoding frame rate: 38.58 FPS
+Rendering frame rate: 36.91 FPS
+Host processing latency min/max/average: 3.2/4.1/3.4 ms
+Frames dropped by your network connection: 0.00%
+Frames dropped by client pacing: 4.31%
+Frames skipped before decoding: 0.00%
+Average network latency: 1 ms (variance: 2 ms)
+Average decoding time: 1.81 ms (waiting for the decoder 0.67 ms)
+Incoming smoothness (host): 43.30%
+
+VRR buffer budget: 8.18 ms (limit 26.61 ms; not added to measured times) | Active
+Buffer status: Shrinking - input timing needs less buffer
+Adaptive input buffer | profile 99.50% | target 1.00 ms | 45 samples / 120 s
+Window measured frames 45 | absorbed 0 | missed 0 | interval severity score distinct
+Frame lateness -19.36 ms | buffer target 1.00 ms | tolerance 0.50 ms | growth measured frame
+Release 1000.0 us/s | last-second inputs 38 / misses 0
+Network misses 5 | decode misses 7 (stage totals)
+Client timing (CPU submissions): 92.45% (target 99.50%)
+Scored time: 2.8s / 2m history (gaps excluded)
+Timing error (1s avg): 0.044 ms | Allowed: 0.50 ms | Drops (30s): 5
+Present timing issues (30s): unavailable
+Source-relative submissions (2s): 61/73 deviations | recurring 13 | reversals 24 | uncertain 0
+Source-relative OS display (2s): unavailable (no recent adjacent measurements)
+Submission evidence: error floor 13.16% of period | worst 11.86 ms | jerk 15.87 ms (73 pairs) | coalesced 0
+OS display evidence: unavailable
+
+After decoding (average time per frame):
+  GPU decode wait: 0.00 ms
+  Frame queue: 24.54 ms (queued 6.62 + pacing/other 17.92)
+  Rendering: 5.06 ms (prepare 4.86 + submit 0.20)
+  GPU wait within rendering: 4.01 ms (100% sampled)
+00:04:16 - SDL Info (0): Stopping input stream...
+00:04:16 - SDL Info (0): done
+00:04:16 - SDL Info (0): Stopping audio stream...
+00:04:16 - SDL Info (0): No audio traffic was ever received from the host!
+00:04:16 - SDL Info (0): ENet wait interrupted
+00:04:16 - SDL Info (0): Control stream connection failed: 10004
+00:04:16 - Qt Info: Found "gamecontrollerdb.txt" at "C:/Users/haran/AppData/Local/Moonlight Game Streaming Project/Moonlight/cache/gamecontrollerdb.txt"
+00:04:16 - SDL Info (0): Loaded 569 new gamepad mappings
+00:04:16 - SDL Info (0): Connection status update: 0
+00:04:16 - SDL Info (0): done
+00:04:16 - SDL Info (0): Stopping video stream...
+00:04:16 - SDL Info (0): done
+00:04:16 - SDL Info (0): Stopping control stream...
+00:04:16 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:04:16 - Qt Info: Discovered mDNS host: "DESKTOP-E8NV55A.local."
+00:04:16 - SDL Info (0): ENet peer acknowledged disconnection
+00:04:16 - SDL Info (0): done
+00:04:16 - SDL Info (0): Cleaning up input stream...
+00:04:16 - SDL Info (0): done
+00:04:16 - SDL Info (0): Cleaning up video stream...
+00:04:16 - SDL Info (0): done
+00:04:16 - SDL Info (0): Cleaning up control stream...
+00:04:16 - SDL Info (0): done
+00:04:16 - SDL Info (0): Cleaning up audio stream...
+00:04:16 - SDL Info (0): done
+00:04:16 - SDL Info (0): Cleaning up platform...
+00:04:16 - SDL Info (0): done
+00:04:16 - Qt Info: Executing request: "https://192.168.0.206:47984/cancel?uniqueid=49c3456590dcd46f&uuid=5c16200d13334dcd9d051839ee99e595"
+00:04:17 - Qt Info: Quit response: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<root status_code=\"200\"><cancel>1</cancel></root>"
+00:04:18 - Qt Info: Processing new PC "DESKTOP-E8NV55A.local." from mDNS with local address "192.168.0.206:47989"
+00:04:18 - Qt Info: Executing request: "http://192.168.0.206:47989/serverinfo?uniqueid=0123456789ABCDEF&uuid=45d938c46cdf4682b5e6909cad447a14"
+00:04:18 - Qt Info: Executing request: "https://192.168.0.206:47984/serverinfo?uniqueid=49c3456590dcd46f&uuid=451dfa27e4f74a6daeb89d97924f34e9"
+00:04:18 - Qt Info: "DESKTOP-E8NV55A" is now at "192.168.0.206:47989"
+00:04:20 - Qt Info: OpenType support missing for "Inter", script 16
+00:04:20 - Qt Info: OpenType support missing for "Tahoma", script 16
+00:04:20 - Qt Info: OpenType support missing for "Arial", script 16
+00:04:20 - Qt Info: OpenType support missing for "MS UI Gothic", script 16
+00:04:20 - Qt Info: OpenType support missing for "SimSun", script 16
+00:04:20 - Qt Info: OpenType support missing for "Segoe UI Emoji", script 16
+00:04:20 - Qt Info: OpenType support missing for "Segoe UI Symbol", script 16
+00:04:21 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:04:27 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:04:33 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:04:38 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:04:43 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:04:49 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:04:54 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:05:00 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:05:06 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:05:12 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:05:18 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:05:24 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:05:31 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:05:36 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:05:41 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:05:47 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:05:52 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:05:58 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:06:04 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:06:10 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:06:15 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:06:20 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:06:26 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:06:31 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:06:37 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:06:42 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:06:48 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:06:53 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:06:58 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:07:04 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:07:09 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:07:15 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:07:20 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:07:25 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:07:31 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:07:36 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:07:42 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:07:47 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:07:52 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:07:58 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:08:03 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:08:09 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:08:14 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:08:19 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:08:25 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:08:30 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:08:36 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:08:41 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:08:47 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:08:52 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:08:58 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:09:03 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:09:08 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:09:14 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:09:19 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:09:24 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:09:30 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:09:35 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:09:42 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:09:48 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:09:54 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:09:59 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:10:05 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:10:11 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:10:16 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:10:21 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"
+00:10:27 - Qt Info: Found unexpected PC "DESKTOP-E8NV55A" looking for "deathspc"

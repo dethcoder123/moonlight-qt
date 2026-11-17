@@ -1031,9 +1031,9 @@ bool Session::initialize(QQuickWindow* qtWindow)
         break;
     case StreamingPreferences::VCC_FORCE_PYROWAVE:
         // PyroWave is only ever used on request, since it needs a wired link with
-        // hundreds of Mbps to spare. H.264 remains the fallback for other hosts.
+        // hundreds of Mbps to spare. Keep AV1, HEVC, and H.264 as fallbacks if
+        // the host or client cannot use PyroWave.
         // The 4:4:4 and 10-bit profiles are masked below like the other codecs'.
-        m_SupportedVideoFormats.removeByMask(~VIDEO_FORMAT_MASK_H264);
         m_SupportedVideoFormats.prepend(VIDEO_FORMAT_PYROWAVE);
         m_SupportedVideoFormats.prepend(VIDEO_FORMAT_PYROWAVE_444);
         m_SupportedVideoFormats.prepend(VIDEO_FORMAT_PYROWAVE_HDR10);
@@ -1180,7 +1180,7 @@ bool Session::validateLaunch(SDL_Window* testWindow)
 
     if (m_SupportedVideoFormats & VIDEO_FORMAT_MASK_PYROWAVE) {
         if (!(m_Computer->serverCodecModeSupport & SCM_PYROWAVE)) {
-            emitLaunchWarning(tr("Your host PC doesn't support PyroWave. Using H.264 instead."));
+            emitLaunchWarning(tr("Your host PC doesn't support PyroWave. Falling back to another codec."));
             m_SupportedVideoFormats.removeByMask(VIDEO_FORMAT_MASK_PYROWAVE);
         }
         else if (getDecoderAvailability(testWindow,
@@ -1189,7 +1189,7 @@ bool Session::validateLaunch(SDL_Window* testWindow)
                                         m_StreamConfig.width,
                                         m_StreamConfig.height,
                                         m_StreamConfig.fps) == DecoderAvailability::None) {
-            emitLaunchWarning(tr("This PC's GPU driver can't decode PyroWave. Using H.264 instead."));
+            emitLaunchWarning(tr("This PC's GPU driver can't decode PyroWave. Falling back to another codec."));
             m_SupportedVideoFormats.removeByMask(VIDEO_FORMAT_MASK_PYROWAVE);
         }
         else {

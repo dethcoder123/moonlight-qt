@@ -70,14 +70,20 @@ jobs:
     with:
       ci_version: ${{ needs.setup.outputs.ci_version }}
 
+  build-windows-arm64:
+    needs: setup
+    uses: ./.github/workflows/build-win-arm64.yml
+    with:
+      ci_version: ${{ needs.setup.outputs.ci_version }}
+
   build-windows-macos:
     needs: setup
     uses: ./.github/workflows/build-win-mac.yml
     with:
       ci_version: ${{ needs.setup.outputs.ci_version }}
 
-  publish-release:
-    needs: [setup, build-windows-macos]
+  publish-arm64-release:
+    needs: [setup, build-windows-arm64]
     if: github.event_name != 'pull_request' && (github.ref_name == 'master' || github.ref_name == 'main')
     runs-on: ubuntu-latest
     permissions:
@@ -92,6 +98,31 @@ jobs:
           name: MoonlightPortable-Windows-arm64-${{ needs.setup.outputs.ci_version }}
           path: release-assets
 
+      - name: Publish Windows ARM64 to GitHub Release
+        shell: bash
+        run: |
+          set -euo pipefail
+          TAG="v6.1.0-arm64-${CI_VERSION}"
+          if gh release view "$TAG" --repo "${GITHUB_REPOSITORY}" >/dev/null 2>&1; then
+            gh release upload "$TAG" release-assets/* --repo "${GITHUB_REPOSITORY}" --clobber
+          else
+            gh release create "$TAG" release-assets/* \
+              --repo "${GITHUB_REPOSITORY}" \
+              --target "${GITHUB_SHA}" \
+              --title "Moonlight Windows ARM64 & x64 (${CI_VERSION})" \
+              --notes "Native Windows ARM64 (Snapdragon X Elite) and x64 build from commit ${GITHUB_SHA}."
+          fi
+
+  publish-release:
+    needs: [setup, build-windows-macos]
+    if: github.event_name != 'pull_request' && (github.ref_name == 'master' || github.ref_name == 'main')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      CI_VERSION: ${{ needs.setup.outputs.ci_version }}
+    steps:
       - name: Download Windows Release Packages
         uses: actions/download-artifact@v6
         with:

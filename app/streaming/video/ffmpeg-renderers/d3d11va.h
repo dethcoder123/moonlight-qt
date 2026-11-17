@@ -294,6 +294,9 @@ private:
 
     AVBufferRef* m_HwDeviceContext;
 
+    UINT m_RenderVendorId = 0;
+    bool m_VrrSkipPrePresentWait = false;
+
     // PyroWave: planes written by the Vulkan decoder (null for other codecs)
     LUID m_RenderAdapterLuid = {};
     std::unique_ptr<D3D11PyroWaveSurfaces> m_PyroWaveSurfaces;

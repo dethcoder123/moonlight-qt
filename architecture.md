@@ -817,7 +817,8 @@ FFmpeg's lock; `renderVideo()` and `captureDecodeBoundary()` take it only
 around decode-context `Signal`/`Wait`/`Flush`. Lock order is presentation, then
 context.
 
-Preparation binds and clears the backbuffer, renders video and overlays, and sets
+Preparation binds and clears the backbuffer, renders video and overlays, unbinds
+the backbuffer RTV so tile-based GPUs can close the pass on `Flush()`, and sets
 colorspace/HDR state. Direct decoder texture binding follows stock Moonlight on
 Intel and on separate decode/render devices. Single-device sessions (including
 AMD, NVIDIA, and Qualcomm Adreno on Windows ARM64) keep the compatibility copy
@@ -845,10 +846,17 @@ The preparation fence wait has a 50 ms
 bound, blocks on the event in 1 ms slices, and checks the fence value between
 waits; the value, rather than notification delivery alone, proves readiness. A
 stale notification cannot release incomplete work, and a delayed notification
-cannot hold already-completed work for 50 ms. Display/resize mutation drains an
+cannot hold already-completed work for 50 ms. Qualcomm Adreno GPUs (`0x4D4F4351`,
+whose tile-based deferred render pass defers swapchain backbuffer completion
+until `Present()`) skip the blocking pre-present CPU fence wait in
+`prepareFrame()`, and keep `sourceFrameReusable` false when direct SRV binding
+is active without an already-completed initial poll. Display/resize mutation drains an
 outstanding prepared fence before invalidating its backbuffer. The device-removed
-sentinel is rejected. A true fence timeout or wait failure disables the adaptive
-path and requests recovery; its log includes the target, final completed value,
+sentinel is rejected. If a fence wait hits the 50 ms timeout while both render and
+decode devices report `S_OK`, the renderer logs the detail and disables the
+blocking pre-present CPU wait instead of triggering a destructive device-reset
+loop; true wait failures or device-loss timeouts still disable the adaptive
+path and request recovery, logging the target, final completed value,
 last event result and device status.
 Decode-to-render and render-to-decode Signal/Wait failures likewise abort frame
 preparation and request device recovery; an unsynchronized frame is never
